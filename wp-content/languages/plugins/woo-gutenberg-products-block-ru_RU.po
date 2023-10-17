@@ -1,0 +1,3477 @@
+# Translation of Plugins - WooCommerce Blocks - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - WooCommerce Blocks - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-10-11 15:20:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.9\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - WooCommerce Blocks - Stable (latest release)\n"
+
+#: src/BlockTypes/OrderConfirmation/Totals.php:225
+msgid "Note:"
+msgstr "Примечание:"
+
+#: src/BlockTypes/OrderConfirmation/Summary.php:36
+#: build/order-confirmation-summary.js:1
+msgid "Email:"
+msgstr "Email:"
+
+#: src/BlockTypes/OrderConfirmation/Summary.php:33
+#: build/order-confirmation-summary.js:1
+msgid "Date:"
+msgstr "Дата:"
+
+#: src/BlockTypes/OrderConfirmation/Status.php:116
+msgid "My account"
+msgstr "Мой аккаунт"
+
+#: src/BlockTypes/OrderConfirmation/Downloads.php:150
+msgid "Never"
+msgstr "Никогда"
+
+#: src/BlockTypes/OrderConfirmation/Downloads.php:144
+msgid "&infin;"
+msgstr "&infin;"
+
+#: src/BlockTypes/ProductButton.php:272
+msgid "View cart"
+msgstr "Посмотреть корзину"
+
+#: patterns/featured-products-fresh-and-tasty.php:135
+msgid "from $1.49"
+msgstr "от $1.49"
+
+#: patterns/featured-products-fresh-and-tasty.php:105
+msgid "from $0.99"
+msgstr "от $0.99"
+
+#: patterns/featured-products-fresh-and-tasty.php:75
+msgid "from $2.99"
+msgstr "от $2.99"
+
+#: patterns/featured-products-fresh-and-tasty.php:45
+msgid "from $1.99"
+msgstr "от $1.99"
+
+#: patterns/featured-category-triple.php:31
+#: patterns/featured-category-triple.php:52
+#: patterns/featured-category-triple.php:73
+msgid "Shop Now"
+msgstr "Купить сейчас"
+
+#: assets/js/blocks/product-gallery/inner-blocks/product-gallery-large-image/block.json
+#: build/product-gallery-large-image/block.json
+msgctxt "block title"
+msgid "Large Image"
+msgstr "Увеличенное изображение"
+
+#: assets/js/blocks/product-collection/block.json
+#: build/product-collection/block.json
+msgctxt "block keyword"
+msgid "Products (Beta)"
+msgstr "Товары (бета-версия)"
+
+#: assets/js/blocks/mini-cart/block.json build/mini-cart/block.json
+msgctxt "block description"
+msgid "Display a button for shoppers to quickly view their cart."
+msgstr "Отображение кнопки, позволяющей покупателю быстро просматривать свою корзину."
+
+#: assets/js/blocks/mini-cart/block.json build/mini-cart/block.json
+msgctxt "block title"
+msgid "Mini-Cart"
+msgstr "Мини-корзина"
+
+#: assets/js/atomic/blocks/product-elements/rating-counter/block.json
+#: build/product-rating-counter/block.json
+msgctxt "block title"
+msgid "Product Rating Counter"
+msgstr "Счетчик рейтинга товара"
+
+#: src/BlockTypes/Checkout.php:67
+msgid "Checkout"
+msgstr "Оформление заказа"
+
+#: assets/js/blocks/product-gallery/block.json build/product-gallery/block.json
+msgctxt "block description"
+msgid "Showcase your products relevant images and media."
+msgstr "Демонстрируйте свои продукты соответствующими изображениями и иными медиафайлами."
+
+#: assets/js/blocks/product-gallery/block.json build/product-gallery/block.json
+msgctxt "block title"
+msgid "Product Gallery"
+msgstr "Галерея товара"
+
+#: assets/js/atomic/blocks/product-elements/rating-stars/block.json
+#: build/product-rating-stars/block.json
+msgctxt "block description"
+msgid "Display the average rating of a product with stars"
+msgstr "Отобразить средний рейтинг товара с помощью звезд."
+
+#: assets/js/atomic/blocks/product-elements/rating-stars/block.json
+#: build/product-rating-stars/block.json
+msgctxt "block title"
+msgid "Product Rating Stars"
+msgstr "Звезды рейтинга товара"
+
+#: src/BlockTypes/OrderConfirmation/Status.php:64
+#: src/BlockTypes/OrderConfirmation/Status.php:129 build/legacy-template.js:7
+#: build/order-confirmation-status.js:1
+msgid "Thank you. Your order has been received."
+msgstr "Ваш заказ принят. Благодарим вас."
+
+#: src/Utils/BlockTemplateUtils.php:381
+msgctxt "Template name"
+msgid "Order Confirmation"
+msgstr "Подтверждение заказа"
+
+#: src/Utils/BlockTemplateUtils.php:378
+msgid "Template used to display the simplified Checkout header."
+msgstr "Шаблон, используемый для отображения упрощенного заголовка блока оформления заказа."
+
+#: src/Utils/BlockTemplateUtils.php:377
+msgctxt "Template name"
+msgid "Checkout Header"
+msgstr "Заголовок оформления заказа"
+
+#: src/Utils/BlockTemplateUtils.php:374
+msgid "The Checkout template guides users through the final steps of the purchase process. It enables users to enter shipping and billing information, select a payment method, and review order details."
+msgstr "Шаблон оформления покупки помогает пользователям пройти последние шаги процесса покупки. Он позволяет пользователям ввести информацию о доставке и оплате, выбрать способ оплаты и просмотреть детали заказа."
+
+#: src/Utils/BlockTemplateUtils.php:370
+msgid "The Cart template displays the items selected by the user for purchase, including quantities, prices, and discounts. It allows users to review their choices before proceeding to checkout."
+msgstr "В шаблоне корзины отображаются товары, выбранные пользователем для покупки, включая количество, цены и скидки. Это позволяет пользователям ознакомиться со своим выбором, прежде чем приступить к оформлению заказа."
+
+#: src/Templates/OrderConfirmationTemplate.php:61
+msgid "Order Confirmation"
+msgstr "Подтверждение заказа"
+
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:87
+msgid "Order number used for display."
+msgstr "Номер заказа, используемый для отображения."
+
+#. Translators: %s location name.
+#: src/Shipping/ShippingController.php:168
+msgid "Collection from <strong>%s</strong>:"
+msgstr "Коллекция от <strong>%s</strong>:"
+
+#: src/BlockTypes/ClassicTemplate.php:145
+msgid "Order confirmation"
+msgstr "Подтверждение заказа."
+
+#: assets/js/blocks/customer-account/block.json
+#: build/customer-account/block.json
+msgctxt "block keyword"
+msgid "My Account"
+msgstr "Моя учётная запись"
+
+#: patterns/product-listing-with-gallery-and-description.php:45
+msgid "Placeholder image used to represent a product being showcased in a product gallery as a main image"
+msgstr "Изображение-заполнитель, используемое для обозначения товара, демонстрируемого в галерее товаров в качестве основного изображения"
+
+#: patterns/product-listing-with-gallery-and-description.php:33
+msgid "Placeholder image used to represent a product being showcased in a product gallery. Secondary image - 3 out of 3."
+msgstr "Изображение-заполнитель, используемое для обозначения товара, демонстрируемого в галерее товаров. Вторичное изображение - 3 из 3."
+
+#: patterns/product-listing-with-gallery-and-description.php:27
+msgid "Placeholder image used to represent a product being showcased in a product gallery. Secondary image - 2 out of 3."
+msgstr "Изображение-заполнитель, используемое для обозначения товара, демонстрируемого в галерее товаров. Вторичное изображение - 2 из 3."
+
+#: patterns/product-listing-with-gallery-and-description.php:21
+msgid "Placeholder image used to represent a product being showcased in a product gallery. Secondary image - 1 out of 3."
+msgstr "Изображение-заполнитель, используемое для обозначения товара, демонстрируемого в галерее товаров. Вторичное изображение - 1 из 3."
+
+#: patterns/product-details-pattern.php:33
+msgid "Placeholder image used to represent a product being showcased in a product details banner. 3 out of 3."
+msgstr "Изображение-заполнитель, используемое для обозначения товара, демонстрируемого на баннере с подробной информацией о товаре. 3 из 3."
+
+#: patterns/product-details-pattern.php:24
+msgid "Placeholder image used to represent a product being showcased in a product details banner. 2 out of 3."
+msgstr "Изображение-заполнитель, используемое для обозначения товара, демонстрируемого на баннере с подробной информацией о товаре. 2 из 3."
+
+#: patterns/product-details-pattern.php:14
+msgid "Placeholder image used to represent a product being showcased in a product details banner. 1 out of 3."
+msgstr "Изображение-заполнитель, используемое для обозначения товара, демонстрируемого на баннере с подробной информацией о товаре. 1 из 3."
+
+#: patterns/product-collections-featured-collections.php:80
+msgid "Placeholder image used to represent products being showcased in a right side of a banner. 2 out of 2."
+msgstr "Изображение-заполнитель, используемое для обозначения товаров, демонстрируемых в правой части баннера. 2 из 2."
+
+#: patterns/product-collections-featured-collections.php:74
+msgid "Placeholder image used to represent products being showcased in a right side of a banner. 1 out of 2."
+msgstr "Изображение-заполнитель, используемое для обозначения товаров, демонстрируемых в правой части баннера. 1 из 2."
+
+#: patterns/product-collections-featured-collections.php:46
+msgid "Placeholder image used to represent products being showcased in a left side of a banner. 2 out of 2."
+msgstr "Изображение-заполнитель, используемое для обозначения товаров, демонстрируемых в левой части баннера. 2 из 2."
+
+#: patterns/product-collections-featured-collections.php:40
+msgid "Placeholder image used to represent products being showcased in a left side of a banner. 1 out of 2."
+msgstr "Изображение-заполнитель, используемое для обозначения товаров, демонстрируемых в левой части баннера. 1 из 2."
+
+#: patterns/hero-product-chessboard.php:130
+msgid "Placeholder image used to represent a product being showcased in a hero section. 2 out of 2."
+msgstr "Изображение-заполнитель, используемое для обозначения товара, демонстрируемого в геройском разделе. 2 из 2."
+
+#: patterns/hero-product-chessboard.php:24
+msgid "Placeholder image used to represent a product being showcased in a hero section. 1 out of 2."
+msgstr "Изображение-заполнитель, используемое для обозначения товара, демонстрируемого в геройском разделе. 1 из 2."
+
+#: patterns/hero-product-3-split.php:43 patterns/hero-product-split.php:32
+msgid "Placeholder image used to represent a product being showcased in a hero section."
+msgstr "Изображение-заполнитель, используемое для обозначения товара, демонстрируемого в геройском разделе."
+
+#: patterns/featured-category-triple.php:66
+msgid "Placeholder image used to represent products being showcased in featured categories banner. 3 out of 3"
+msgstr "Изображение-заполнитель, используемое для обозначения товаров, демонстрируемых в баннере избранных категорий. 3 из 3"
+
+#: patterns/featured-category-triple.php:45
+msgid "Placeholder image used to represent products being showcased in featured categories banner. 2 out of 3."
+msgstr "Изображение-заполнитель, используемое для обозначения товаров, демонстрируемых в баннере избранных категорий. 2 из 3."
+
+#: patterns/featured-category-triple.php:24
+msgid "Placeholder image used to represent products being showcased in featured categories banner. 1 out of 3."
+msgstr "Изображение-заполнитель, используемое для обозначения товаров, демонстрируемых в баннере избранных категорий. 1 из 3."
+
+#: patterns/featured-category-focus.php:17
+msgid "Placeholder image used to represent products being showcased in a featured category section."
+msgstr "Изображение-заполнитель, используемое для обозначения товаров, демонстрируемых в разделе избранных категорий."
+
+#: patterns/banner.php:47
+msgid "Placeholder image used to represent products being showcased in a banner."
+msgstr "Изображение-заполнитель, используемое для обозначения товаров, демонстрируемых на баннере."
+
+#: assets/js/blocks/product-top-rated/block.json
+#: build/product-top-rated/block.json
+msgctxt "block description"
+msgid "Display a grid of your top rated products."
+msgstr "Отображение сетки рейтинговых товаров."
+
+#: assets/js/blocks/product-top-rated/block.json
+#: build/product-top-rated/block.json
+msgctxt "block title"
+msgid "Top Rated Products"
+msgstr "Рейтинговые товары"
+
+#: assets/js/blocks/product-new/block.json build/product-new/block.json
+msgctxt "block description"
+msgid "Display a grid of your newest products."
+msgstr "Отображение сетки самых новых товаров."
+
+#: assets/js/blocks/product-new/block.json build/product-new/block.json
+msgctxt "block title"
+msgid "Newest Products"
+msgstr "Новейшие товары"
+
+#: assets/js/atomic/blocks/product-elements/rating/block.json
+#: build/product-rating/block.json
+msgctxt "block description"
+msgid "Display the average rating of a product."
+msgstr "Отображение среднего значения оценки товара."
+
+#: assets/js/atomic/blocks/product-elements/rating/block.json
+#: build/product-rating/block.json
+msgctxt "block title"
+msgid "Product Rating"
+msgstr "Оценка товара"
+
+#: assets/js/blocks/product-template/block.json
+#: build/product-template/block.json
+msgctxt "block description"
+msgid "Contains the block elements used to render a product."
+msgstr "Содержит элементы блока, используемые для отрисовки товара."
+
+#: assets/js/blocks/product-template/block.json
+#: build/product-template/block.json
+msgctxt "block title"
+msgid "Product Template"
+msgstr "Шаблон товара"
+
+#: assets/js/blocks/product-collection/block.json
+#: build/product-collection/block.json
+msgctxt "block description"
+msgid "Display a collection of products from your store."
+msgstr "Отображение коллекции товаров из магазина сайта."
+
+#. Translators: %s Payment method ID.
+#: src/StoreApi/Routes/V1/Checkout.php:477
+msgid "%s is not available for this order—please choose a different payment method"
+msgstr "%s недоступен для данного заказа, выберите другой способ оплаты"
+
+#: assets/js/atomic/blocks/product-elements/product-meta/block.json
+#: build/product-meta/block.json
+msgctxt "block description"
+msgid "Display a product’s SKU, categories, tags, and more."
+msgstr "Отображать артикулы SKU, категории, теги и другие сведения о товаре."
+
+#: assets/js/atomic/blocks/product-elements/product-details/block.json
+#: build/product-details/block.json
+msgctxt "block description"
+msgid "Display a product's description, attributes, and reviews."
+msgstr "Отобразить описание, характеристики и отзывы о товаре."
+
+#: assets/js/atomic/blocks/product-elements/add-to-cart-form/block.json
+#: build/add-to-cart-form/block.json
+msgctxt "block title"
+msgid "Add to Cart with Options"
+msgstr "Добавить в корзину с опциями"
+
+#. translators: %s is referring to the total of reviews for a product
+#: src/BlockTypes/ProductRating.php:153
+#: src/BlockTypes/ProductRatingCounter.php:152 build/all-products.js:5
+#: build/all-products.js:10
+#: build/cart-blocks/cart-cross-sells-products-frontend.js:6 build/cart.js:16
+#: build/product-rating-counter-frontend.js:2 build/product-rating-counter.js:2
+#: build/product-rating-frontend.js:4 build/product-rating.js:4
+msgid "(%s customer review)"
+msgid_plural "(%s customer reviews)"
+msgstr[0] "(%s отзыв пользователя)"
+msgstr[1] "(%s отзыва пользователей)"
+msgstr[2] "(%s отзывов пользователей)"
+
+#. translators: 1: WordPress link, 2: WooCommerce link
+#. translators: Footer powered by text. %1$s being WordPress, %2$s being
+#. WooCommerce
+#: patterns/footer-simple-menu-and-cart.php:45
+#: patterns/footer-with-3-menus.php:61
+msgid "Powered by %1$s with %2$s"
+msgstr "Работает на %1$s с %2$s"
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-title-label-block/block.json
+#: build/inner-blocks/mini-cart-title-label-block/block.json
+msgctxt "block description"
+msgid "Block that displays the 'Your cart' part of the Mini-Cart Title block."
+msgstr "Блок, отображающий часть «Ваша корзина» блока «Заголовок мини-корзины»."
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-title-label-block/block.json
+#: build/inner-blocks/mini-cart-title-label-block/block.json
+msgctxt "block title"
+msgid "Mini-Cart Title Label"
+msgstr "Ярлык заголовка мини-корзины"
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-title-items-counter-block/block.json
+#: build/inner-blocks/mini-cart-title-items-counter-block/block.json
+msgctxt "block description"
+msgid "Block that displays the items counter part of the Mini-Cart Title block."
+msgstr "Блок, отображающий счётчик товарных позиций блока «Заголовок мини-корзины»."
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-title-items-counter-block/block.json
+#: build/inner-blocks/mini-cart-title-items-counter-block/block.json
+msgctxt "block title"
+msgid "Mini-Cart Title Items Counter"
+msgstr "Счётчик товарных позиций заголовка мини-корзины"
+
+#: src/StoreApi/Routes/V1/ProductsBySlug.php:78
+msgid "Invalid product slug."
+msgstr "Неверный слаг товара."
+
+#: src/StoreApi/Routes/V1/ProductsBySlug.php:42
+msgid "Slug of the resource."
+msgstr "Слаг ресурса."
+
+#: src/StoreApi/Routes/V1/Products.php:145
+msgid "Limit result set to products with specific slug(s). Use commas to separate."
+msgstr "Ограничьте результаты товарами с определённым слагом. Используйте запятые в качестве разделителя."
+
+#: src/Shipping/ShippingController.php:223
+msgid "Not available when using WooCommerce Blocks Local Pickup"
+msgstr "Недоступно при использовании WooCommerce Blocks Local Pickup"
+
+#: assets/js/blocks/single-product/block.json build/single-product/block.json
+msgctxt "block description"
+msgid "Display a single product."
+msgstr "Отображение отдельного товара."
+
+#: assets/js/blocks/single-product/block.json build/single-product/block.json
+msgctxt "block title"
+msgid "Single Product"
+msgstr "Отдельный товар"
+
+#: templates/notices/error.php:35
+msgid "The following problems were found:"
+msgstr "Были обнаружены следующие проблемы:"
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-checkout-button-block/block.json
+#: build/inner-blocks/mini-cart-checkout-button-block/block.json
+msgctxt "block description"
+msgid "Block that displays the checkout button when the Mini-Cart has products."
+msgstr "Блок, отображающий кнопку перехода к оформлению заказа, когда в мини-корзине есть товары."
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-checkout-button-block/block.json
+#: build/inner-blocks/mini-cart-checkout-button-block/block.json
+msgctxt "block title"
+msgid "Mini-Cart Proceed to Checkout Button"
+msgstr "Кнопка оформления заказа мини-корзины"
+
+#: assets/js/atomic/blocks/product-elements/button/block.json
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-cart-button-block/block.json
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-checkout-button-block/block.json
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-shopping-button-block/block.json
+#: build/inner-blocks/mini-cart-cart-button-block/block.json
+#: build/inner-blocks/mini-cart-checkout-button-block/block.json
+#: build/inner-blocks/mini-cart-shopping-button-block/block.json
+#: build/product-button/block.json
+msgctxt "block style label"
+msgid "Outline"
+msgstr "Обводка"
+
+#: assets/js/atomic/blocks/product-elements/button/block.json
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-cart-button-block/block.json
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-checkout-button-block/block.json
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-shopping-button-block/block.json
+#: build/inner-blocks/mini-cart-cart-button-block/block.json
+#: build/inner-blocks/mini-cart-checkout-button-block/block.json
+#: build/inner-blocks/mini-cart-shopping-button-block/block.json
+#: build/product-button/block.json
+msgctxt "block style label"
+msgid "Fill"
+msgstr "Заполнить"
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-cart-button-block/block.json
+#: build/inner-blocks/mini-cart-cart-button-block/block.json
+msgctxt "block description"
+msgid "Block that displays the cart button when the Mini-Cart has products."
+msgstr "Блок, отображающий кнопку перехода к содержимому корзины, когда в мини-корзине есть товары."
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-cart-button-block/block.json
+#: build/inner-blocks/mini-cart-cart-button-block/block.json
+msgctxt "block title"
+msgid "Mini-Cart View Cart Button"
+msgstr "Кнопка просмотра содержимого мини-корзины"
+
+#: assets/js/atomic/blocks/product-elements/product-reviews/block.json
+#: build/product-reviews/block.json
+msgctxt "block description"
+msgid "A block that shows the reviews for a product."
+msgstr "Блок, в котором отображаются отзывы о товаре."
+
+#: assets/js/atomic/blocks/product-elements/product-reviews/block.json
+#: build/product-reviews/block.json
+msgctxt "block title"
+msgid "Product Reviews"
+msgstr "Отзывы о товаре"
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:313
+msgid "List of available payment method IDs that can be used to process the order."
+msgstr "Список доступных ID способов оплаты, которые можно использовать для обработки заказа."
+
+#: assets/js/atomic/blocks/product-elements/product-meta/block.json
+#: build/product-meta/block.json
+msgctxt "block title"
+msgid "Product Meta"
+msgstr "Метаданные товара"
+
+#: assets/js/atomic/blocks/product-elements/related-products/block.json
+#: build/related-products/block.json
+msgctxt "block description"
+msgid "Display related products."
+msgstr "Отображение сопутствующих товаров."
+
+#: assets/js/atomic/blocks/product-elements/related-products/block.json
+#: build/related-products/block.json
+msgctxt "block title"
+msgid "Related Products"
+msgstr "Сопутствующие товары"
+
+#: assets/js/atomic/blocks/product-elements/product-details/block.json
+#: build/product-details/block.json
+msgctxt "block title"
+msgid "Product Details"
+msgstr "Сведения о товаре"
+
+#: assets/js/atomic/blocks/product-elements/add-to-cart-form/block.json
+#: build/add-to-cart-form/block.json
+msgctxt "block description"
+msgid "Display a button so the customer can add a product to their cart. Options will also be displayed depending on product type. e.g. quantity, variation."
+msgstr "Отображение кнопки, позволяющий клиенту добавлять товар в свою корзину. Опции товара также будут отображаться в зависимости от типа товара (например: количество, вариация)."
+
+#: assets/js/atomic/blocks/product-elements/button/block.json
+#: build/product-button/block.json
+msgctxt "block title"
+msgid "Add to Cart Button"
+msgstr "Кнопка добавления в корзину"
+
+#: src/BlockTemplatesController.php:742
+msgid "Shop"
+msgstr "Магазин"
+
+#: patterns/product-search-form.php:9
+msgctxt "placeholder for search field"
+msgid "Search products…"
+msgstr "Искать товары…"
+
+#: patterns/no-products-found.php:11
+msgctxt "Message explaining that there are no products returned from a search"
+msgid "No products were found matching your selection."
+msgstr "Не найдено товаров, соответствующих вашему выбору."
+
+#: assets/js/atomic/blocks/product-elements/product-image-gallery/block.json
+#: build/product-image-gallery/block.json
+msgctxt "block description"
+msgid "Display a product's images."
+msgstr "Отображение изображений товара."
+
+#: assets/js/atomic/blocks/product-elements/product-image-gallery/block.json
+#: build/product-image-gallery/block.json
+msgctxt "block title"
+msgid "Product Image Gallery"
+msgstr "Галерея изображений товара"
+
+#: assets/js/blocks/store-notices/block.json build/store-notices/block.json
+msgctxt "block description"
+msgid "Display shopper-facing notifications generated by WooCommerce or extensions."
+msgstr "Отображение уведомлений, адресованных покупателю, сгенерированные WooCommerce или расширениями."
+
+#: assets/js/blocks/store-notices/block.json build/store-notices/block.json
+msgctxt "block title"
+msgid "Store Notices"
+msgstr "Уведомления магазина"
+
+#: assets/js/blocks/product-results-count/block.json
+#: build/product-results-count/block.json
+msgctxt "block description"
+msgid "Display the number of products on the archive page or search result page."
+msgstr "Отображение количества товаров на страницах архивов или на странице результатов поиска."
+
+#: assets/js/blocks/product-results-count/block.json
+#: build/product-results-count/block.json
+msgctxt "block title"
+msgid "Product Results Count"
+msgstr "Количество товаров на странице"
+
+#: assets/js/blocks/catalog-sorting/block.json build/catalog-sorting/block.json
+msgctxt "block description"
+msgid "Enable customers to change the sorting order of the products."
+msgstr "Возможность клиентам самим изменять порядок сортировки товаров."
+
+#: assets/js/blocks/catalog-sorting/block.json build/catalog-sorting/block.json
+msgctxt "block title"
+msgid "Catalog Sorting"
+msgstr "Сортировка каталога"
+
+#: assets/js/blocks/breadcrumbs/block.json build/breadcrumbs/block.json
+msgctxt "block description"
+msgid "Enable customers to keep track of their location within the store and navigate back to parent pages."
+msgstr "Позволяет покупателям отслеживать свое местоположение в магазине и возвращаться на родительские страницы."
+
+#: assets/js/blocks/breadcrumbs/block.json build/breadcrumbs/block.json
+msgctxt "block title"
+msgid "Store Breadcrumbs"
+msgstr "Навигационные цепочки магазина"
+
+#. translators: %s: List of invalid parameters.
+#: src/StoreApi/Routes/V1/CartUpdateCustomer.php:104
+msgid "Invalid parameter(s): %s"
+msgstr "Неверный параметр: %s"
+
+#: src/StoreApi/Routes/V1/CartUpdateCustomer.php:82
+#: src/StoreApi/Routes/V1/CartUpdateCustomer.php:93
+msgid "Invalid parameter."
+msgstr "Неверный параметр."
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-shipping-methods-block/block.json
+#: build/inner-blocks/checkout-shipping-methods-block/block.json
+msgctxt "block description"
+msgid "Display shipping options and rates for your store."
+msgstr "Отображает варианты доставки и цены вашего магазина."
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-shipping-method-block/block.json
+#: build/inner-blocks/checkout-shipping-method-block/block.json
+msgctxt "block description"
+msgid "Select between shipping or local pickup."
+msgstr "Выберите между доставкой или самовывозом."
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-shipping-method-block/block.json
+#: build/inner-blocks/checkout-shipping-method-block/block.json
+msgctxt "block title"
+msgid "Shipping Method"
+msgstr "Способ доставки"
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-pickup-options-block/block.json
+#: build/inner-blocks/checkout-pickup-options-block/block.json
+msgctxt "block description"
+msgid "Shows local pickup options."
+msgstr "Показывает варианты самовывоза."
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-pickup-options-block/block.json
+#: build/inner-blocks/checkout-pickup-options-block/block.json
+msgctxt "block title"
+msgid "Pickup Method"
+msgstr "Способ самовывоза"
+
+#. translators: %d: shipping package number
+#: src/StoreApi/Utilities/CartController.php:864
+msgctxt "shipping packages"
+msgid "Shipment %d"
+msgstr "Доставка %d"
+
+#: src/StoreApi/Routes/V1/CartSelectShippingRate.php:68
+msgid "Invalid Rate ID."
+msgstr "Неверный ID тарифа."
+
+#: src/StoreApi/Routes/V1/CartSelectShippingRate.php:39
+msgid "The ID of the package being shipped. Leave blank to apply to all packages."
+msgstr "ID отправляемого пакета. Оставьте поле пустым, чтобы применить ко всем."
+
+#: src/Shipping/ShippingController.php:265
+#: build/wc-shipping-method-pickup-location.js:83
+msgid "Optional cost to charge for local pickup."
+msgstr "Дополнительная плата за самовывоз."
+
+#: src/Shipping/ShippingController.php:260
+#: build/wc-shipping-method-pickup-location.js:83
+msgid "If a cost is defined, this controls if taxes are applied to that cost."
+msgstr "Если стоимость определена, эта опция определяет, применяются ли налоги к той сумме."
+
+#: src/Shipping/ShippingController.php:256
+msgid "This controls the title which the user sees during checkout."
+msgstr "Заголовок, который видит пользователь в процессе оформления заказа."
+
+#: src/Shipping/ShippingController.php:251
+msgid "If enabled, this method will appear on the block based checkout."
+msgstr "Если этот метод включен, он появится в окне оформления заказа на основе блоков."
+
+#: src/Shipping/PickupLocation.php:146
+msgid "Pickup address"
+msgstr "Адрес самовывоза"
+
+#: src/Shipping/PickupLocation.php:144
+#: build/wc-shipping-method-pickup-location.js:232
+#: build/wc-shipping-method-pickup-location.js:237
+msgid "Pickup location"
+msgstr "Место выдачи"
+
+#: src/Shipping/PickupLocation.php:31 build/checkout.js:21
+msgid "Allow customers to choose a local pickup location during checkout."
+msgstr "Разрешить клиентам выбирать самовывоз товара во время оформления заказа."
+
+#: assets/js/blocks/customer-account/block.json
+#: build/customer-account/block.json
+msgctxt "block description"
+msgid "A block that allows your customers to log in and out of their accounts in your store."
+msgstr "Позволяет клиентам входить в свои учётные записи и выходить из них."
+
+#: assets/js/blocks/customer-account/block.json
+#: build/customer-account/block.json
+msgctxt "block title"
+msgid "Customer account"
+msgstr "Учётная запись клиента"
+
+#: src/BlockTypes/CustomerAccount.php:107
+msgid "Login"
+msgstr "Вход"
+
+#: src/BlockTypes/CustomerAccount.php:106 build/customer-account.js:1
+msgid "My Account"
+msgstr "Моя учётная запись"
+
+#: assets/js/blocks/active-filters/block.json build/active-filters/block.json
+msgctxt "block title"
+msgid "Active Filters Controls"
+msgstr "Управление активными фильтрами"
+
+#: src/BlockTypes/ProductStockIndicator.php:66 build/all-products.js:11
+#: build/product-stock-indicator-frontend.js:2
+#: build/product-stock-indicator.js:2
+msgid "Out of stock"
+msgstr "Нет в наличии"
+
+#: src/BlockTypes/ProductStockIndicator.php:64 build/all-products.js:11
+#: build/product-stock-indicator-frontend.js:2
+#: build/product-stock-indicator.js:2
+msgid "In stock"
+msgstr "В наличии"
+
+#: patterns/store-info-alt-image-and-text.php:79
+msgid "We specialize in limited collections of handmade tableware. We collaborate with restaurants and cafes to create unique items that complement the menu perfectly. Please get in touch if you want to know more about our process and pricing."
+msgstr "Мы специализируемся на ограниченных коллекциях посуды ручной работы. Мы сотрудничаем с ресторанами и кафе для создания уникальных изделий, которые идеально дополняют меню. Свяжитесь с нами, если хотите узнать больше о нашем рабочем процессе и ценах."
+
+#: patterns/store-info-alt-image-and-text.php:75
+msgid "Marl is an independent studio and artisanal gallery"
+msgstr "Marl - это независимая студия и ремесленная галерея"
+
+#: patterns/store-info-alt-image-and-text.php:57
+msgid "Unique, one-of-a-kind pieces."
+msgstr "Уникальные, единственные в своём роде изделия."
+
+#: patterns/store-info-alt-image-and-text.php:53
+msgid "Enduring quality."
+msgstr "Неизменно высокое качество."
+
+#: patterns/store-info-alt-image-and-text.php:49
+msgid "Earthy, organic feel."
+msgstr "Ощущение натуральности и органичности."
+
+#: patterns/store-info-alt-image-and-text.php:45
+msgid "Timeless style."
+msgstr "Стиль вне времени."
+
+#: patterns/store-info-alt-image-and-text.php:40
+msgid "All items are 100% hand-made, using the potter’s wheel or traditional techniques."
+msgstr "Все изделия на 100% изготовлены вручную, с использованием гончарного круга или традиционных техник."
+
+#: patterns/store-info-alt-image-and-text.php:36
+msgid "Created with love and care in Australia"
+msgstr "Создано с любовью и заботой в Австралии"
+
+#: patterns/product-hero-2-col-2-row.php:76
+msgid "42% Cupro 34% Linen 24% Viscose"
+msgstr "42% купро, 34% лён, 24% вискоза"
+
+#: patterns/product-hero-2-col-2-row.php:72
+msgid "Normal Fit"
+msgstr "Нормальная посадка"
+
+#: patterns/product-hero-2-col-2-row.php:66
+msgid "Button-down front for any type of mood or look."
+msgstr "С пуговицами по центру для любого настроения и образа."
+
+#: patterns/product-hero-2-col-2-row.php:62
+msgid "Versatile"
+msgstr "Универсальность"
+
+#: patterns/product-hero-2-col-2-row.php:54
+msgid "Half tuck into your pants or layer over."
+msgstr "Можно заправить в брюки наполовину или носить навыпуск."
+
+#: patterns/product-hero-2-col-2-row.php:50
+msgid "Fits your wardrobe"
+msgstr "Отлично подойдёт к другим вещам"
+
+#: patterns/product-hero-2-col-2-row.php:44
+msgid "Reflect your fashionable style."
+msgstr "Вы будете выглядеть модно."
+
+#: patterns/product-hero-2-col-2-row.php:40
+msgid "100% Woolen"
+msgstr "100% шерсть"
+
+#: patterns/product-hero-2-col-2-row.php:27
+msgid "View product"
+msgstr "Просмотреть товар"
+
+#: patterns/product-hero-2-col-2-row.php:22
+msgid "Perfect for any look featuring a mid-rise, relax fitting silhouette."
+msgstr "Благодаря среднему поясу и свободному фасону идеально подойдёт для любого образа."
+
+#: patterns/product-hero-2-col-2-row.php:15
+msgid "The Eden Jacket"
+msgstr "Осенняя куртка"
+
+#: src/Utils/BlockTemplateUtils.php:358
+msgid "Displays products filtered by an attribute."
+msgstr "Отображение товаров, отфильтрованных по атрибуту."
+
+#: src/Utils/BlockTemplateUtils.php:357
+msgctxt "Template name"
+msgid "Products by Attribute"
+msgstr "Товары по атрибуту"
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:257
+msgid "List of attributes (taxonomy terms) assigned to the product. For variable products, these are mapped to variations (see the `variations` field)."
+msgstr "Список атрибутов (значений таксономии), присвоенных товару. Для вариативных товаров они сопоставляются с вариациями (см. поле \"вариации\")."
+
+#: assets/js/blocks/rating-filter/block.json build/rating-filter/block.json
+msgctxt "block title"
+msgid "Filter by Rating Controls"
+msgstr "Управление фильтром по рейтингу"
+
+#: assets/js/blocks/stock-filter/block.json build/stock-filter/block.json
+msgctxt "block title"
+msgid "Filter by Stock Controls"
+msgstr "Элементы управления фильтрацией по наличию"
+
+#: assets/js/blocks/rating-filter/block.json build/rating-filter/block.json
+msgctxt "block description"
+msgid "Enable customers to filter the product grid by rating."
+msgstr "Разрешить клиентам фильтровать сетку товаров по рейтингу."
+
+#: assets/js/blocks/price-filter/block.json build/price-filter/block.json
+msgctxt "block title"
+msgid "Filter by Price Controls"
+msgstr "Элементы управления фильтрацией по цене"
+
+#: assets/js/blocks/attribute-filter/block.json
+#: build/attribute-filter/block.json
+msgctxt "block title"
+msgid "Filter by Attribute Controls"
+msgstr "Элементы управления фильтрацией по атрибутам"
+
+#: patterns/filters.php:61 build/filter-wrapper.js:1
+msgid "Filter by rating"
+msgstr "Фильтрация по рейтингу"
+
+#: assets/js/blocks/cart/inner-blocks/cart-cross-sells-products/block.json
+#: build/inner-blocks/cart-cross-sells-products-block/block.json
+msgctxt "block description"
+msgid "Shows the Cross-Sells products."
+msgstr "Показывает товары для перекрёстных продаж."
+
+#: assets/js/blocks/cart/inner-blocks/cart-cross-sells-products/block.json
+#: build/inner-blocks/cart-cross-sells-products-block/block.json
+msgctxt "block title"
+msgid "Cart Cross-Sells Products"
+msgstr "Товары для перекрёстных продаж в корзине"
+
+#: assets/js/blocks/cart/inner-blocks/cart-cross-sells-block/block.json
+#: build/inner-blocks/cart-cross-sells-block/block.json
+msgctxt "block description"
+msgid "Shows the Cross-Sells block."
+msgstr "Показывает блок для перекрёстных продаж."
+
+#: assets/js/blocks/cart/inner-blocks/cart-cross-sells-block/block.json
+#: build/inner-blocks/cart-cross-sells-block/block.json
+msgctxt "block title"
+msgid "Cart Cross-Sells"
+msgstr "Перекрёстные продажи в корзине"
+
+#: src/BlockTypes/Cart.php:68 build/cart.js:12
+msgid "You may be interested in…"
+msgstr "Вас может заинтересовать…"
+
+#: assets/js/blocks/price-filter/block.json build/price-filter/block.json
+msgctxt "block description"
+msgid "Enable customers to filter the product grid by choosing a price range."
+msgstr "Позвольте клиентам фильтровать сетку продуктов, выбирая ценовой диапазон."
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/filled-mini-cart-contents-block/block.json
+#: build/inner-blocks/filled-mini-cart-contents-block/block.json
+msgctxt "block description"
+msgid "Contains blocks that display the content of the Mini-Cart."
+msgstr "Содержит блоки, отображающие содержимое мини-корзины."
+
+#: assets/js/blocks/featured-items/featured-product/block.json
+#: build/featured-product/block.json
+msgctxt "block description"
+msgid "Highlight a product or variation."
+msgstr "Выделите товар или вариант."
+
+#: assets/js/blocks/attribute-filter/block.json
+#: build/attribute-filter/block.json
+msgctxt "block description"
+msgid "Enable customers to filter the product grid by selecting one or more attributes, such as color."
+msgstr "Разрешить клиентам фильтровать сетку товаров по одному или нескольким атрибутам, например по цвету."
+
+#: assets/js/blocks/active-filters/block.json build/active-filters/block.json
+msgctxt "block description"
+msgid "Display the currently active filters."
+msgstr "Отображение текущих активных фильтров."
+
+#: src/Domain/Services/Email/CustomerNewAccount.php:58
+msgid "“New Account” emails are sent when a customer signs up via the checkout flow."
+msgstr "Эл. письма \"Новая учётная запись\" отправляются, когда клиент регистрируется во время оформления заказа."
+
+#: src/Domain/Bootstrap.php:184
+msgid "The WooCommerce Blocks plugin requires a more recent version of WooCommerce and has been deactivated. Please update to the latest version of WooCommerce."
+msgstr "Для плагина WooCommerce Blocks требуется более новая версия WooCommerce, поэтому он был деактивирован. Обновите WooCommerce до последней версии."
+
+#: src/BlockTypes/MiniCart.php:573
+msgid "Empty Mini-Cart Message"
+msgstr "Сообщение о пустой мини-корзине"
+
+#: assets/js/blocks/stock-filter/block.json build/stock-filter/block.json
+msgctxt "block description"
+msgid "Enable customers to filter the product grid by stock status."
+msgstr "Разрешить клиентам фильтровать сетку по состоянию запасов товаров."
+
+#: assets/js/blocks/filter-wrapper/block.json build/filter-wrapper/block.json
+msgctxt "block title"
+msgid "Filter Block"
+msgstr "Блок фильтрации"
+
+#: assets/js/blocks/product-categories/block.json
+#: build/product-categories/block.json
+msgctxt "block description"
+msgid "Show all product categories as a list or dropdown."
+msgstr "Отображение всех категорий товаров в виде выпадающего списка."
+
+#: assets/js/blocks/product-categories/block.json
+#: build/product-categories/block.json
+msgctxt "block title"
+msgid "Product Categories List"
+msgstr "Список категорий товаров"
+
+#. translators: %1s: file name; %2s: slug value found.
+#: src/BlockPatterns.php:131
+msgid "Could not register file \"%s\" as a block pattern (\"Title\" field missing)"
+msgstr "Не удалось зарегистрировать файл \"%s\" в качестве шаблона блока (не указан заголовок)"
+
+#. translators: %1s: file name; %2s: slug value found.
+#: src/BlockPatterns.php:110
+msgid "Could not register file \"%1$s\" as a block pattern (invalid slug \"%2$s\")"
+msgstr "Не удалось зарегистрировать файл \"%1$s\" в качестве шаблона блока (недопустимый ярлык \"%2$s\")"
+
+#. translators: %s: file name.
+#: src/BlockPatterns.php:95
+msgid "Could not register file \"%s\" as a block pattern (\"Slug\" field missing)"
+msgstr "Не удалось зарегистрировать файл \"%s\" в качестве шаблона блока (не указан ярлык)"
+
+#: assets/js/blocks/products/all-products/block.json
+#: build/all-products/block.json
+msgctxt "block description"
+msgid "Display products from your store in a grid layout."
+msgstr "Отображение товаров магазина в виде сетки."
+
+#: assets/js/blocks/products/all-products/block.json
+#: build/all-products/block.json
+msgctxt "block title"
+msgid "All Products"
+msgstr "Все товары"
+
+#: assets/js/blocks/product-category/block.json
+#: build/product-category/block.json
+msgctxt "block description"
+msgid "Display a grid of products from your selected categories."
+msgstr "Отображение сетки товаров из отмеченных категорий."
+
+#: assets/js/blocks/product-category/block.json
+#: build/product-category/block.json
+msgctxt "block title"
+msgid "Products by Category"
+msgstr "Товары по категории"
+
+#: assets/js/blocks/product-best-sellers/block.json
+#: build/product-best-sellers/block.json
+msgctxt "block description"
+msgid "Display a grid of your all-time best selling products."
+msgstr "Отображение сетки самых продаваемых товаров магазина за всё время."
+
+#: assets/js/blocks/product-best-sellers/block.json
+#: build/product-best-sellers/block.json
+msgctxt "block title"
+msgid "Best Selling Products"
+msgstr "Самые продаваемые товары"
+
+#: src/Utils/BlockTemplateUtils.php:362
+msgid "Displays search results for your store."
+msgstr "Отображает результаты поиска товаров в пределах магазина."
+
+#: src/Utils/BlockTemplateUtils.php:354
+msgid "Displays products filtered by a tag."
+msgstr "Отображает товары, отфильтрованные по метке."
+
+#: src/Utils/BlockTemplateUtils.php:350
+msgid "Displays products filtered by a category."
+msgstr "Отображает товары, отфильтрованные по категории."
+
+#: src/Utils/BlockTemplateUtils.php:346
+msgid "Displays your products."
+msgstr "Отображает ваши товары."
+
+#: src/Utils/BlockTemplateUtils.php:342
+msgid "Displays a single product."
+msgstr "Отображает один товар."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:165
+msgid "List of cross-sells items related to cart items."
+msgstr "Список кросселов, связанных с товарами в корзине."
+
+#: src/Utils/BlockTemplateUtils.php:366
+msgid "Template used to display the Mini-Cart drawer."
+msgstr "Шаблон для отображения выезжающей панели мини-корзины."
+
+#: src/Utils/BlockTemplateUtils.php:365
+msgctxt "Template name"
+msgid "Mini-Cart"
+msgstr "Мини-корзина"
+
+#: src/Utils/BlockTemplateUtils.php:361
+msgctxt "Template name"
+msgid "Product Search Results"
+msgstr "Результаты поиска товара"
+
+#: src/Utils/BlockTemplateUtils.php:353
+msgctxt "Template name"
+msgid "Products by Tag"
+msgstr "Товары по метке"
+
+#: src/Utils/BlockTemplateUtils.php:349
+msgctxt "Template name"
+msgid "Products by Category"
+msgstr "Товары по категории"
+
+#: src/Utils/BlockTemplateUtils.php:345
+msgctxt "Template name"
+msgid "Product Catalog"
+msgstr "Каталог товаров"
+
+#: src/Utils/BlockTemplateUtils.php:341
+msgctxt "Template name"
+msgid "Single Product"
+msgstr "Отдельный товар"
+
+#: woocommerce-gutenberg-products-block.php:281
+msgid "You have WooCommerce Blocks installed, but the WooCommerce bundled version is running because it is more up-to-date. This may cause unexpected compatibility issues. Please update the WooCommerce Blocks plugin."
+msgstr "У вас установлены блоки WooCommerce, но работает связанная версия WooCommerce, поскольку она более актуальна. Это может вызвать непредвиденные проблемы совместимости. Пожалуйста, обновите плагин WooCommerce Blocks."
+
+#: assets/js/blocks/products-by-attribute/block.json
+#: build/products-by-attribute/block.json
+msgctxt "block description"
+msgid "Display a grid of products with selected attributes."
+msgstr "Отображение сетки товаров с указанными параметрами."
+
+#: assets/js/blocks/products-by-attribute/block.json
+#: build/products-by-attribute/block.json
+msgctxt "block title"
+msgid "Products by Attribute"
+msgstr "Товары по атрибуту"
+
+#: assets/js/blocks/product-tag/block.json build/product-tag/block.json
+msgctxt "block description"
+msgid "Display a grid of products with selected tags."
+msgstr "Отображение сетки товаров, с выбранными метками."
+
+#: assets/js/blocks/product-tag/block.json build/product-tag/block.json
+msgctxt "block title"
+msgid "Products by Tag"
+msgstr "Товары по метке"
+
+#: assets/js/blocks/handpicked-products/block.json
+#: build/handpicked-products/block.json
+msgctxt "block description"
+msgid "Display a selection of hand-picked products in a grid."
+msgstr "Отображение в виде сетки выбранные вручную товары."
+
+#: assets/js/blocks/handpicked-products/block.json
+#: build/handpicked-products/block.json
+msgctxt "block keyword"
+msgid "Handpicked Products"
+msgstr "Выбранные вручную товары"
+
+#: assets/js/blocks/handpicked-products/block.json
+#: build/handpicked-products/block.json
+msgctxt "block title"
+msgid "Hand-picked Products"
+msgstr "Выбранные вручную товары"
+
+#: assets/js/blocks/featured-items/featured-product/block.json
+#: build/featured-product/block.json
+msgctxt "block title"
+msgid "Featured Product"
+msgstr "Рекомендуемый товар"
+
+#: assets/js/blocks/featured-items/featured-category/block.json
+#: build/featured-category/block.json
+msgctxt "block description"
+msgid "Visually highlight a product category and encourage prompt action."
+msgstr "Визуальное выделение категории товара и поощрение оперативных действий."
+
+#: assets/js/blocks/featured-items/featured-category/block.json
+#: build/featured-category/block.json
+msgctxt "block title"
+msgid "Featured Category"
+msgstr "Рекомендуемая категория"
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-order-summary-cart-items/block.json
+#: build/inner-blocks/checkout-order-summary-cart-items-block/block.json
+msgctxt "block description"
+msgid "Shows cart items."
+msgstr "Отображение товаров в корзине."
+
+#: assets/js/blocks/cart/inner-blocks/cart-items-block/block.json
+#: assets/js/blocks/checkout/inner-blocks/checkout-order-summary-cart-items/block.json
+#: build/inner-blocks/cart-items-block/block.json
+#: build/inner-blocks/checkout-order-summary-cart-items-block/block.json
+msgctxt "block title"
+msgid "Cart Items"
+msgstr "Позиции в корзине"
+
+#: assets/js/blocks/cart/inner-blocks/cart-order-summary-taxes/block.json
+#: assets/js/blocks/checkout/inner-blocks/checkout-order-summary-taxes/block.json
+#: build/inner-blocks/cart-order-summary-taxes-block/block.json
+#: build/inner-blocks/checkout-order-summary-taxes-block/block.json
+msgctxt "block description"
+msgid "Shows the cart taxes row."
+msgstr "Отображение строки налогов корзины."
+
+#: assets/js/blocks/cart/inner-blocks/cart-order-summary-taxes/block.json
+#: assets/js/blocks/checkout/inner-blocks/checkout-order-summary-taxes/block.json
+#: build/inner-blocks/cart-order-summary-taxes-block/block.json
+#: build/inner-blocks/checkout-order-summary-taxes-block/block.json
+msgctxt "block title"
+msgid "Taxes"
+msgstr "Налоги"
+
+#: assets/js/blocks/cart/inner-blocks/cart-order-summary-subtotal/block.json
+#: assets/js/blocks/checkout/inner-blocks/checkout-order-summary-subtotal/block.json
+#: build/inner-blocks/cart-order-summary-subtotal-block/block.json
+#: build/inner-blocks/checkout-order-summary-subtotal-block/block.json
+msgctxt "block description"
+msgid "Shows the cart subtotal row."
+msgstr "Отображение строки подытога корзины."
+
+#: assets/js/blocks/cart/inner-blocks/cart-order-summary-subtotal/block.json
+#: assets/js/blocks/checkout/inner-blocks/checkout-order-summary-subtotal/block.json
+#: build/inner-blocks/cart-order-summary-subtotal-block/block.json
+#: build/inner-blocks/checkout-order-summary-subtotal-block/block.json
+msgctxt "block title"
+msgid "Subtotal"
+msgstr "Подытог"
+
+#: assets/js/blocks/cart/inner-blocks/cart-order-summary-shipping/block.json
+#: assets/js/blocks/checkout/inner-blocks/checkout-order-summary-shipping/block.json
+#: build/inner-blocks/cart-order-summary-shipping-block/block.json
+#: build/inner-blocks/checkout-order-summary-shipping-block/block.json
+msgctxt "block description"
+msgid "Shows the cart shipping row."
+msgstr "Отображение строки доставки корзины."
+
+#: assets/js/blocks/cart/inner-blocks/cart-order-summary-shipping/block.json
+#: assets/js/blocks/checkout/inner-blocks/checkout-order-summary-shipping/block.json
+#: build/inner-blocks/cart-order-summary-shipping-block/block.json
+#: build/inner-blocks/checkout-order-summary-shipping-block/block.json
+msgctxt "block title"
+msgid "Shipping"
+msgstr "Доставка"
+
+#: assets/js/blocks/cart/inner-blocks/cart-order-summary-heading/block.json
+#: build/inner-blocks/cart-order-summary-heading-block/block.json
+msgctxt "block description"
+msgid "Shows the heading row."
+msgstr "Отображение строки заголовка."
+
+#: assets/js/blocks/cart/inner-blocks/cart-order-summary-heading/block.json
+#: build/inner-blocks/cart-order-summary-heading-block/block.json
+msgctxt "block title"
+msgid "Heading"
+msgstr "Заголовок"
+
+#: assets/js/blocks/cart/inner-blocks/cart-order-summary-fee/block.json
+#: assets/js/blocks/checkout/inner-blocks/checkout-order-summary-fee/block.json
+#: build/inner-blocks/cart-order-summary-fee-block/block.json
+#: build/inner-blocks/checkout-order-summary-fee-block/block.json
+msgctxt "block description"
+msgid "Shows the cart fee row."
+msgstr "Отображение строки комиссии корзины."
+
+#: assets/js/blocks/cart/inner-blocks/cart-order-summary-fee/block.json
+#: assets/js/blocks/checkout/inner-blocks/checkout-order-summary-fee/block.json
+#: build/inner-blocks/cart-order-summary-fee-block/block.json
+#: build/inner-blocks/checkout-order-summary-fee-block/block.json
+msgctxt "block title"
+msgid "Fees"
+msgstr "Сборы"
+
+#: assets/js/blocks/cart/inner-blocks/cart-order-summary-discount/block.json
+#: assets/js/blocks/checkout/inner-blocks/checkout-order-summary-discount/block.json
+#: build/inner-blocks/cart-order-summary-discount-block/block.json
+#: build/inner-blocks/checkout-order-summary-discount-block/block.json
+msgctxt "block description"
+msgid "Shows the cart discount row."
+msgstr "Отображение строки скидки корзины."
+
+#: assets/js/blocks/cart/inner-blocks/cart-order-summary-discount/block.json
+#: assets/js/blocks/checkout/inner-blocks/checkout-order-summary-discount/block.json
+#: build/inner-blocks/cart-order-summary-discount-block/block.json
+#: build/inner-blocks/checkout-order-summary-discount-block/block.json
+msgctxt "block title"
+msgid "Discount"
+msgstr "Скидка"
+
+#: assets/js/blocks/cart/inner-blocks/cart-order-summary-coupon-form/block.json
+#: assets/js/blocks/checkout/inner-blocks/checkout-order-summary-coupon-form/block.json
+#: build/inner-blocks/cart-order-summary-coupon-form-block/block.json
+#: build/inner-blocks/checkout-order-summary-coupon-form-block/block.json
+msgctxt "block description"
+msgid "Shows the apply coupon form."
+msgstr "Отображение формы для применения купона."
+
+#: assets/js/blocks/cart/inner-blocks/cart-order-summary-coupon-form/block.json
+#: assets/js/blocks/checkout/inner-blocks/checkout-order-summary-coupon-form/block.json
+#: build/inner-blocks/cart-order-summary-coupon-form-block/block.json
+#: build/inner-blocks/checkout-order-summary-coupon-form-block/block.json
+msgctxt "block title"
+msgid "Coupon Form"
+msgstr "Форма купона"
+
+#: src/StoreApi/Routes/V1/AbstractCartRoute.php:308
+msgid "Nonce is invalid."
+msgstr "Одноразовый код недействителен."
+
+#: src/StoreApi/Routes/V1/AbstractCartRoute.php:304
+msgid "Missing the Nonce header. This endpoint requires a valid nonce."
+msgstr "Отсутствует заголовок одноразового кода. Для этого эндпойнта требуется действительный одноразовый код."
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-shopping-button-block/block.json
+#: build/inner-blocks/mini-cart-shopping-button-block/block.json
+msgctxt "block description"
+msgid "Block that displays the shopping button when the Mini-Cart is empty."
+msgstr "Блок, отображающий кнопку перехода к покупкам, когда мини-корзина пуста."
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-shopping-button-block/block.json
+#: build/inner-blocks/mini-cart-shopping-button-block/block.json
+msgctxt "block title"
+msgid "Mini-Cart Shopping Button"
+msgstr "Кнопка покупки мини-корзины"
+
+#: assets/js/atomic/blocks/product-elements/add-to-cart-form/block.json
+#: assets/js/atomic/blocks/product-elements/average-rating/block.json
+#: assets/js/atomic/blocks/product-elements/button/block.json
+#: assets/js/atomic/blocks/product-elements/product-details/block.json
+#: assets/js/atomic/blocks/product-elements/product-image-gallery/block.json
+#: assets/js/atomic/blocks/product-elements/product-meta/block.json
+#: assets/js/atomic/blocks/product-elements/product-reviews/block.json
+#: assets/js/atomic/blocks/product-elements/rating-counter/block.json
+#: assets/js/atomic/blocks/product-elements/rating-stars/block.json
+#: assets/js/atomic/blocks/product-elements/rating/block.json
+#: assets/js/atomic/blocks/product-elements/related-products/block.json
+#: assets/js/blocks/active-filters/block.json
+#: assets/js/blocks/attribute-filter/block.json
+#: assets/js/blocks/breadcrumbs/block.json
+#: assets/js/blocks/catalog-sorting/block.json
+#: assets/js/blocks/checkout/block.json
+#: assets/js/blocks/collection-filters/block.json
+#: assets/js/blocks/customer-account/block.json
+#: assets/js/blocks/featured-items/featured-category/block.json
+#: assets/js/blocks/featured-items/featured-product/block.json
+#: assets/js/blocks/filter-wrapper/block.json
+#: assets/js/blocks/handpicked-products/block.json
+#: assets/js/blocks/mini-cart/block.json
+#: assets/js/blocks/order-confirmation/additional-information/block.json
+#: assets/js/blocks/order-confirmation/billing-address/block.json
+#: assets/js/blocks/order-confirmation/billing-wrapper/block.json
+#: assets/js/blocks/order-confirmation/downloads-wrapper/block.json
+#: assets/js/blocks/order-confirmation/downloads/block.json
+#: assets/js/blocks/order-confirmation/shipping-address/block.json
+#: assets/js/blocks/order-confirmation/shipping-wrapper/block.json
+#: assets/js/blocks/order-confirmation/status/block.json
+#: assets/js/blocks/order-confirmation/summary/block.json
+#: assets/js/blocks/order-confirmation/totals-wrapper/block.json
+#: assets/js/blocks/order-confirmation/totals/block.json
+#: assets/js/blocks/page-content-wrapper/block.json
+#: assets/js/blocks/price-filter/block.json
+#: assets/js/blocks/product-best-sellers/block.json
+#: assets/js/blocks/product-categories/block.json
+#: assets/js/blocks/product-category/block.json
+#: assets/js/blocks/product-collection/block.json
+#: assets/js/blocks/product-gallery/block.json
+#: assets/js/blocks/product-gallery/inner-blocks/product-gallery-large-image-next-previous/block.json
+#: assets/js/blocks/product-gallery/inner-blocks/product-gallery-large-image/block.json
+#: assets/js/blocks/product-gallery/inner-blocks/product-gallery-pager/block.json
+#: assets/js/blocks/product-gallery/inner-blocks/product-gallery-thumbnails/block.json
+#: assets/js/blocks/product-new/block.json
+#: assets/js/blocks/product-results-count/block.json
+#: assets/js/blocks/product-tag/block.json
+#: assets/js/blocks/product-template/block.json
+#: assets/js/blocks/product-top-rated/block.json
+#: assets/js/blocks/products-by-attribute/block.json
+#: assets/js/blocks/products/all-products/block.json
+#: assets/js/blocks/rating-filter/block.json
+#: assets/js/blocks/single-product/block.json
+#: assets/js/blocks/stock-filter/block.json
+#: assets/js/blocks/store-notices/block.json build/active-filters/block.json
+#: build/add-to-cart-form/block.json build/all-products/block.json
+#: build/attribute-filter/block.json build/breadcrumbs/block.json
+#: build/catalog-sorting/block.json build/checkout/block.json
+#: build/collection-filters/block.json build/customer-account/block.json
+#: build/featured-category/block.json build/featured-product/block.json
+#: build/filter-wrapper/block.json build/handpicked-products/block.json
+#: build/mini-cart/block.json
+#: build/order-confirmation-additional-information/block.json
+#: build/order-confirmation-billing-address/block.json
+#: build/order-confirmation-billing-wrapper/block.json
+#: build/order-confirmation-downloads-wrapper/block.json
+#: build/order-confirmation-downloads/block.json
+#: build/order-confirmation-shipping-address/block.json
+#: build/order-confirmation-shipping-wrapper/block.json
+#: build/order-confirmation-status/block.json
+#: build/order-confirmation-summary/block.json
+#: build/order-confirmation-totals-wrapper/block.json
+#: build/order-confirmation-totals/block.json
+#: build/page-content-wrapper/block.json build/price-filter/block.json
+#: build/product-average-rating/block.json
+#: build/product-best-sellers/block.json build/product-button/block.json
+#: build/product-categories/block.json build/product-category/block.json
+#: build/product-collection/block.json build/product-details/block.json
+#: build/product-gallery-large-image-next-previous/block.json
+#: build/product-gallery-large-image/block.json
+#: build/product-gallery-pager/block.json
+#: build/product-gallery-thumbnails/block.json build/product-gallery/block.json
+#: build/product-image-gallery/block.json build/product-meta/block.json
+#: build/product-new/block.json build/product-rating-counter/block.json
+#: build/product-rating-stars/block.json build/product-rating/block.json
+#: build/product-results-count/block.json build/product-reviews/block.json
+#: build/product-tag/block.json build/product-template/block.json
+#: build/product-top-rated/block.json build/products-by-attribute/block.json
+#: build/rating-filter/block.json build/related-products/block.json
+#: build/single-product/block.json build/stock-filter/block.json
+#: build/store-notices/block.json
+msgctxt "block keyword"
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: assets/js/blocks/checkout/block.json build/checkout/block.json
+msgctxt "block description"
+msgid "Display a checkout form so your customers can submit orders."
+msgstr "Отображение формы оформления заказа, через которую покупатели смогут подтверждать заказы."
+
+#: assets/js/blocks/checkout/block.json build/checkout/block.json
+msgctxt "block title"
+msgid "Checkout"
+msgstr "Оформление заказа"
+
+#. Translators: %s amount.
+#: src/StoreApi/Utilities/QuantityLimits.php:102
+msgid "The minimum quantity that can be added to the cart is %s"
+msgstr "Минимальное количество добавляемых в корзину товаров: %s"
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:429
+msgid "The maximum quantity that can be added to the cart."
+msgstr "Максимальное количество товаров в корзине."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:423
+msgid "The minimum quantity that can be added to the cart."
+msgstr "Минимальное количество товаров в корзине."
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-items-block/block.json
+#: build/inner-blocks/mini-cart-items-block/block.json
+msgctxt "block description"
+msgid "Contains the products table and other custom blocks of filled mini-cart."
+msgstr "Содержит таблицу товаров и другие произвольные блоки заполненной мини-корзины."
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-items-block/block.json
+#: build/inner-blocks/mini-cart-items-block/block.json
+msgctxt "block title"
+msgid "Mini-Cart Items"
+msgstr "Содержимое мини-корзины"
+
+#. translators: %s: rating
+#. translators: %s is referring to the average rating value
+#. translators: %s is the rating value wrapped in HTML strong tags.
+#: src/BlockTypes/ProductRating.php:150
+#: src/BlockTypes/ProductRatingStars.php:119 build/active-filters-frontend.js:8
+#: build/active-filters-wrapper-frontend.js:8 build/active-filters.js:8
+#: build/all-reviews.js:3 build/rating-filter-frontend.js:3
+#: build/rating-filter-wrapper-frontend.js:9 build/rating-filter.js:3
+#: build/reviews-by-category.js:13 build/reviews-by-product.js:10
+#: build/reviews-frontend.js:3
+msgid "Rated %s out of 5"
+msgstr "Оценка %s из 5"
+
+#. Translators: %s amount.
+#: src/StoreApi/Utilities/QuantityLimits.php:124
+msgid "The quantity added to the cart must be a multiple of %s"
+msgstr "Количество, добавленное в корзину, должно быть кратно %s"
+
+#: src/StoreApi/Utilities/QuantityLimits.php:93
+msgid "This item is already in the cart and its quantity cannot be edited"
+msgstr "Этот товар уже в корзине и его количество нельзя изменить"
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:53
+#: src/StoreApi/Schemas/V1/ProductSchema.php:435
+msgid "The amount that quantities increment by. Quantity must be an multiple of this value."
+msgstr "Число, на которое увеличивается количество. Количество будет кратно этому значению."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:35
+msgid "How the quantity of this item should be controlled, for example, any limits in place."
+msgstr "Как следует контролировать количество этого товара, например, какие ограничения существуют."
+
+#: src/StoreApi/Routes/V1/CartAddItem.php:45
+msgid "Quantity of this item to add to the cart."
+msgstr "Количество товара для добавления в корзину."
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-title-block/block.json
+#: build/inner-blocks/mini-cart-title-block/block.json
+msgctxt "block description"
+msgid "Block that displays the title of the Mini-Cart block."
+msgstr "Блок, отображающий заголовок блока мини-корзины."
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-title-block/block.json
+#: build/inner-blocks/mini-cart-title-block/block.json
+msgctxt "block title"
+msgid "Mini-Cart Title"
+msgstr "Заголовок мини-корзины"
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-products-table-block/block.json
+#: build/inner-blocks/mini-cart-products-table-block/block.json
+msgctxt "block description"
+msgid "Block that displays the products table of the Mini-Cart block."
+msgstr "Блок, отображающий таблицу товаров мини-корзины."
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-products-table-block/block.json
+#: build/inner-blocks/mini-cart-products-table-block/block.json
+msgctxt "block title"
+msgid "Mini-Cart Products Table"
+msgstr "Таблица товаров мини-корзины"
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-footer-block/block.json
+#: build/inner-blocks/mini-cart-footer-block/block.json
+msgctxt "block description"
+msgid "Block that displays the footer of the Mini-Cart block."
+msgstr "Блок, отображающий подвал блока мини-корзины."
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/mini-cart-footer-block/block.json
+#: build/inner-blocks/mini-cart-footer-block/block.json
+msgctxt "block title"
+msgid "Mini-Cart Footer"
+msgstr "Подвал мини-корзины"
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/filled-mini-cart-contents-block/block.json
+#: build/inner-blocks/filled-mini-cart-contents-block/block.json
+msgctxt "block title"
+msgid "Filled Mini-Cart view"
+msgstr "Вид заполненной мини-корзины"
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/empty-mini-cart-contents-block/block.json
+#: build/inner-blocks/empty-mini-cart-contents-block/block.json
+msgctxt "block description"
+msgid "Blocks that are displayed when the Mini-Cart is empty."
+msgstr "Блоки, которые отображаются, когда мини-корзина пуста."
+
+#: assets/js/blocks/mini-cart/mini-cart-contents/inner-blocks/empty-mini-cart-contents-block/block.json
+#: build/inner-blocks/empty-mini-cart-contents-block/block.json
+msgctxt "block title"
+msgid "Empty Mini-Cart view"
+msgstr "Вид пустой мини-корзины"
+
+#: src/Utils/BlockTemplateUtils.php:146
+msgid "No theme is defined for this template."
+msgstr "Для этого шаблона не определена тема."
+
+#: assets/js/blocks/cart/inner-blocks/cart-accepted-payment-methods-block/block.json
+#: build/inner-blocks/cart-accepted-payment-methods-block/block.json
+msgctxt "block description"
+msgid "Display accepted payment methods."
+msgstr "Отображение принятых способов оплаты."
+
+#: assets/js/blocks/cart/inner-blocks/cart-accepted-payment-methods-block/block.json
+#: build/inner-blocks/cart-accepted-payment-methods-block/block.json
+msgctxt "block title"
+msgid "Accepted Payment Methods"
+msgstr "Доступные способы оплаты"
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:313
+msgid "If this is a default attribute"
+msgstr "Если это атрибут по умолчанию"
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-totals-block/block.json
+#: build/inner-blocks/checkout-totals-block/block.json
+msgctxt "block description"
+msgid "Column containing the checkout totals."
+msgstr "Колонка, содержащая итоговые суммы заказа."
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-totals-block/block.json
+#: build/inner-blocks/checkout-totals-block/block.json
+msgctxt "block title"
+msgid "Checkout Totals"
+msgstr "Итоги оформления заказа"
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-terms-block/block.json
+#: build/inner-blocks/checkout-terms-block/block.json
+msgctxt "block description"
+msgid "Ensure that customers agree to your Terms & Conditions and Privacy Policy."
+msgstr "Подтверждение того, что клиент согласен с условиями и правилами магазина, а так же политикой конфиденциальности."
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-terms-block/block.json
+#: build/inner-blocks/checkout-terms-block/block.json
+msgctxt "block title"
+msgid "Terms and Conditions"
+msgstr "Правила и условия"
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-shipping-methods-block/block.json
+#: build/inner-blocks/checkout-shipping-methods-block/block.json
+msgctxt "block title"
+msgid "Shipping Options"
+msgstr "Варианты доставки"
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-shipping-address-block/block.json
+#: build/inner-blocks/checkout-shipping-address-block/block.json
+msgctxt "block description"
+msgid "Collect your customer's shipping address."
+msgstr "Сохранение адреса доставки клиента."
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-shipping-address-block/block.json
+#: assets/js/blocks/order-confirmation/shipping-address/block.json
+#: build/inner-blocks/checkout-shipping-address-block/block.json
+#: build/order-confirmation-shipping-address/block.json
+msgctxt "block title"
+msgid "Shipping Address"
+msgstr "Адрес доставки"
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-payment-block/block.json
+#: build/inner-blocks/checkout-payment-block/block.json
+msgctxt "block description"
+msgid "Payment options for your store."
+msgstr "Способы оплаты в вашем магазине."
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-payment-block/block.json
+#: build/inner-blocks/checkout-payment-block/block.json
+msgctxt "block title"
+msgid "Payment Options"
+msgstr "Способы оплаты"
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-order-note-block/block.json
+#: build/inner-blocks/checkout-order-note-block/block.json
+msgctxt "block description"
+msgid "Allow customers to add a note to their order."
+msgstr "Возможность оставить дополнительную информацию к заказу."
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-order-note-block/block.json
+#: build/inner-blocks/checkout-order-note-block/block.json
+msgctxt "block title"
+msgid "Order Note"
+msgstr "Примечание к заказу"
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-fields-block/block.json
+#: build/inner-blocks/checkout-fields-block/block.json
+msgctxt "block description"
+msgid "Column containing checkout address fields."
+msgstr "Колонка, содержащая поля адреса оформления заказа."
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-fields-block/block.json
+#: build/inner-blocks/checkout-fields-block/block.json
+msgctxt "block title"
+msgid "Checkout Fields"
+msgstr "Поля формы оформления заказа"
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-contact-information-block/block.json
+#: build/inner-blocks/checkout-contact-information-block/block.json
+msgctxt "block description"
+msgid "Collect your customer's contact information."
+msgstr "Сохранение контактной информации клиента."
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-contact-information-block/block.json
+#: build/inner-blocks/checkout-contact-information-block/block.json
+msgctxt "block title"
+msgid "Contact Information"
+msgstr "Контактная информация"
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-billing-address-block/block.json
+#: build/inner-blocks/checkout-billing-address-block/block.json
+msgctxt "block description"
+msgid "Collect your customer's billing address."
+msgstr "Сохранение адреса для выставления счетов клиента."
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-billing-address-block/block.json
+#: assets/js/blocks/order-confirmation/billing-address/block.json
+#: build/inner-blocks/checkout-billing-address-block/block.json
+#: build/order-confirmation-billing-address/block.json
+msgctxt "block title"
+msgid "Billing Address"
+msgstr "Платёжный адрес"
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-actions-block/block.json
+#: build/inner-blocks/checkout-actions-block/block.json
+msgctxt "block description"
+msgid "Allow customers to place their order."
+msgstr "Возможность размещения заказа."
+
+#: assets/js/blocks/checkout/inner-blocks/checkout-actions-block/block.json
+#: build/inner-blocks/checkout-actions-block/block.json
+msgctxt "block title"
+msgid "Actions"
+msgstr "Действия"
+
+#: assets/js/blocks/cart/inner-blocks/proceed-to-checkout-block/block.json
+#: build/inner-blocks/proceed-to-checkout-block/block.json
+msgctxt "block description"
+msgid "Allow customers proceed to Checkout."
+msgstr "Возможность перехода к оформлению заказа."
+
+#: assets/js/blocks/cart/inner-blocks/proceed-to-checkout-block/block.json
+#: build/inner-blocks/proceed-to-checkout-block/block.json
+msgctxt "block title"
+msgid "Proceed to Checkout"
+msgstr "Переход к оформлению заказа"
+
+#: assets/js/blocks/cart/inner-blocks/filled-cart-block/block.json
+#: build/inner-blocks/filled-cart-block/block.json
+msgctxt "block description"
+msgid "Contains blocks that are displayed when the cart contains products."
+msgstr "Содержит блоки, отображающиеся, когда корзина не пуста."
+
+#: assets/js/blocks/cart/inner-blocks/filled-cart-block/block.json
+#: build/inner-blocks/filled-cart-block/block.json
+msgctxt "block title"
+msgid "Filled Cart"
+msgstr "Заполненная корзина"
+
+#: assets/js/blocks/cart/inner-blocks/empty-cart-block/block.json
+#: build/inner-blocks/empty-cart-block/block.json
+msgctxt "block description"
+msgid "Contains blocks that are displayed when the cart is empty."
+msgstr "Содержит блоки, отображающиеся, когда корзина пуста."
+
+#: assets/js/blocks/cart/inner-blocks/empty-cart-block/block.json
+#: build/inner-blocks/empty-cart-block/block.json
+msgctxt "block title"
+msgid "Empty Cart"
+msgstr "Пустая корзина"
+
+#: assets/js/blocks/cart/inner-blocks/cart-totals-block/block.json
+#: build/inner-blocks/cart-totals-block/block.json
+msgctxt "block description"
+msgid "Column containing the cart totals."
+msgstr "Колонка, содержащая итоговые суммы корзины."
+
+#: assets/js/blocks/cart/inner-blocks/cart-totals-block/block.json
+#: build/inner-blocks/cart-totals-block/block.json
+msgctxt "block title"
+msgid "Cart Totals"
+msgstr "Итог корзины"
+
+#: assets/js/blocks/cart/inner-blocks/cart-order-summary-block/block.json
+#: assets/js/blocks/checkout/inner-blocks/checkout-order-summary-block/block.json
+#: build/inner-blocks/cart-order-summary-block/block.json
+#: build/inner-blocks/checkout-order-summary-block/block.json
+msgctxt "block description"
+msgid "Show customers a summary of their order."
+msgstr "Отображение клиенту информации по заказу."
+
+#: assets/js/blocks/cart/inner-blocks/cart-order-summary-block/block.json
+#: assets/js/blocks/checkout/inner-blocks/checkout-order-summary-block/block.json
+#: assets/js/blocks/order-confirmation/summary/block.json
+#: build/inner-blocks/cart-order-summary-block/block.json
+#: build/inner-blocks/checkout-order-summary-block/block.json
+#: build/order-confirmation-summary/block.json
+msgctxt "block title"
+msgid "Order Summary"
+msgstr "Детали заказа"
+
+#: assets/js/blocks/cart/inner-blocks/cart-line-items-block/block.json
+#: build/inner-blocks/cart-line-items-block/block.json
+msgctxt "block description"
+msgid "Block containing current line items in Cart."
+msgstr "Блок, содержащий текущие позиции в корзине."
+
+#: assets/js/blocks/cart/inner-blocks/cart-line-items-block/block.json
+#: build/inner-blocks/cart-line-items-block/block.json
+msgctxt "block title"
+msgid "Cart Line Items"
+msgstr "Позиции корзины"
+
+#: assets/js/blocks/cart/inner-blocks/cart-items-block/block.json
+#: build/inner-blocks/cart-items-block/block.json
+msgctxt "block description"
+msgid "Column containing cart items."
+msgstr "Колонка, содержащая товары, положенные в корзину."
+
+#: assets/js/blocks/cart/inner-blocks/cart-express-payment-block/block.json
+#: assets/js/blocks/checkout/inner-blocks/checkout-express-payment-block/block.json
+#: build/inner-blocks/cart-express-payment-block/block.json
+#: build/inner-blocks/checkout-express-payment-block/block.json
+msgctxt "block title"
+msgid "Express Checkout"
+msgstr "Экспресс-оформление"
+
+#: src/StoreApi/Utilities/OrderController.php:459 build/cart-frontend.js:2
+#: build/cart.js:2 build/checkout-frontend.js:2 build/checkout.js:2
+msgid "Sorry, this order requires a shipping option."
+msgstr "Для этого заказа необходимо выбрать способ доставки."
+
+#: src/BlockTemplatesController.php:146
+msgid "Mini-Cart"
+msgstr "Мини-корзина"
+
+#: patterns/filters.php:32 build/filter-wrapper.js:1
+#: build/product-category.js:11 build/product-new.js:11
+#: build/product-on-sale.js:11 build/product-tag.js:8
+#: build/product-top-rated.js:11 build/products-by-attribute.js:11
+#: build/stock-filter.js:10
+msgid "Filter by stock status"
+msgstr "Фильтрация по статусу"
+
+#: src/StoreApi/Schemas/V1/ProductCollectionDataSchema.php:107
+msgid "Status"
+msgstr "Статус"
+
+#: src/StoreApi/Schemas/V1/ProductCollectionDataSchema.php:99
+msgid "Returns number of products with each stock status."
+msgstr "Возвращает количество товаров с каждым статусом наличия."
+
+#: src/StoreApi/Routes/V1/ProductCollectionData.php:141
+msgid "If true, calculates stock counts for products in the collection."
+msgstr "При значении true, рассчитывает запасы товаров в коллекции."
+
+#: src/BlockTypes/Checkout.php:321
+msgid "Locations outside all other zones"
+msgstr "Места за пределами всех остальных зон"
+
+#: src/BlockTypes/Checkout.php:320
+msgid "International"
+msgstr "Международная"
+
+#: src/StoreApi/Routes/V1/CartExtensions.php:50
+msgid "Additional data to pass to the extension"
+msgstr "Дополнительные данные для передачи расширению"
+
+#: src/StoreApi/Routes/V1/CartExtensions.php:46
+msgid "Extension's name - this will be used to ensure the data in the request is routed appropriately."
+msgstr "Название расширения - будет использоваться для обеспечения правильной маршрутизации данных в запросе."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:291
+#: src/StoreApi/Schemas/V1/OrderSchema.php:230
+msgid "The rate at which tax is applied."
+msgstr "Применяемая ставка налога."
+
+#: src/StoreApi/Routes/V1/Batch.php:105
+msgid "Invalid path provided."
+msgstr "Предоставлен неверный путь."
+
+#: src/BlockTypes/AbstractBlock.php:111
+msgid "Block name is required."
+msgstr "Требуется название блока."
+
+#. translators: %s: Integration name.
+#: src/Integrations/IntegrationRegistry.php:100
+msgid "Integration \"%s\" is not registered."
+msgstr "Интеграция «%s» не зарегистрирована."
+
+#. translators: %s: Integration name.
+#: src/Integrations/IntegrationRegistry.php:69
+msgid "\"%s\" is already registered."
+msgstr "«%s» уже зарегистрирован."
+
+#: src/Integrations/IntegrationRegistry.php:35
+msgid "Integration registry requires an identifier."
+msgstr "Реестр интеграции требует идентификатора."
+
+#. translators: 1: The first n-1 items of a list 2: the last item in the list.
+#: src/StoreApi/Utilities/ArrayUtils.php:29
+msgid "%1$s and %2$s"
+msgstr "%1$s и %2$s"
+
+#: src/StoreApi/Utilities/CartController.php:404
+msgid "There was an error with an item in your cart."
+msgstr "Произошла ошибка с товаром в вашей корзине."
+
+#. translators: %s: product names.
+#: src/StoreApi/Utilities/CartController.php:390
+msgid "There are not enough %s in stock. Please reduce the quantities in your cart."
+msgstr "%s заканчиваются на складе. Уменьшите количество в вашей корзине."
+
+#. translators: %s: product names.
+#: src/StoreApi/Utilities/CartController.php:385
+msgid "There is not enough %s in stock. Please reduce the quantity in your cart."
+msgstr "%s заканчивается на складе. Уменьшите количество в вашей корзине."
+
+#. translators: %s: product names.
+#: src/StoreApi/Utilities/CartController.php:378
+msgid "There are too many %s in the cart. Only 1 of each can be purchased. Please reduce the quantities in your cart."
+msgstr "В корзине слишком много %s. пожалуйста уменьшите количество каждого товара в корзине до 1."
+
+#. translators: %s: product names.
+#: src/StoreApi/Utilities/CartController.php:373
+msgid "There are too many %s in the cart. Only 1 can be purchased. Please reduce the quantity in your cart."
+msgstr "В корзине слишком много %s. пожалуйста уменьшите количество в корзине до 1."
+
+#. translators: %s: product names.
+#: src/StoreApi/Utilities/CartController.php:366
+msgid "%s cannot be purchased. Please remove them from your cart."
+msgstr "%s невозможно приобрести. Пожалуйста, удалите их из своей корзины."
+
+#. translators: %s: product name.
+#: src/StoreApi/Utilities/CartController.php:361
+msgid "%s cannot be purchased. Please remove it from your cart."
+msgstr "%s невозможно приобрести. Пожалуйста, удалите его из вашей корзины."
+
+#. translators: %s: product names.
+#: src/StoreApi/Utilities/CartController.php:354
+msgid "%s are out of stock and cannot be purchased. Please remove them from your cart."
+msgstr "%s отсутствуют и не могут быть приобретены. Пожалуйста, удалите их из корзины."
+
+#. translators: %s: product name.
+#: src/StoreApi/Utilities/CartController.php:349
+msgid "%s is out of stock and cannot be purchased. Please remove it from your cart."
+msgstr "%s отсутствует на складе и не может быть приобретён. Пожалуйста, удалите его из корзины."
+
+#. translators: %s file handle name.
+#: src/Assets/Api.php:246
+msgid "Script with handle %s had a dependency on itself which has been removed. This is an indicator that your JS code has a circular dependency that can cause bugs."
+msgstr "Скрипт с обработчиком %s имел зависимость от самого себя, которая была удалена. Это признак того, что ваш JS-код имеет циклическую зависимость, которая может вызывать ошибки."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:319
+#: src/StoreApi/Schemas/V1/OrderSchema.php:288
+msgid "List of required payment gateway features to process the order."
+msgstr "Список необходимых функций платежного шлюза для обработки заказа."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:177
+msgid "Optionally, how the metadata value should be displayed to the user."
+msgstr "Опционально, как значение метаданных должно отображаться пользователю."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:171
+msgid "Value of the metadata."
+msgstr "Значение метаданных."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:165
+msgid "Name of the metadata."
+msgstr "Название метаданных."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:157
+msgid "Metadata related to the item"
+msgstr "Метаданные, относящиеся к товару"
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:193
+msgid "List of cart fees."
+msgstr "Список комиссий в корзине."
+
+#: src/StoreApi/Schemas/V1/CartFeeSchema.php:56
+#: src/StoreApi/Schemas/V1/OrderFeeSchema.php:56
+msgid "Total tax amount for this fee."
+msgstr "Сумма налога для этой комиссии."
+
+#: src/StoreApi/Schemas/V1/CartFeeSchema.php:50
+#: src/StoreApi/Schemas/V1/OrderFeeSchema.php:50
+msgid "Total amount for this fee."
+msgstr "Итоговая сумма комиссии."
+
+#: src/StoreApi/Schemas/V1/CartFeeSchema.php:42
+#: src/StoreApi/Schemas/V1/OrderFeeSchema.php:42
+msgid "Fee total amounts provided using the smallest unit of the currency."
+msgstr "Сумма комиссии указывается с использованием наименьшей единицы валюты."
+
+#: src/StoreApi/Schemas/V1/CartFeeSchema.php:36
+msgid "Fee name."
+msgstr "Название комиссии."
+
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:150
+msgid "The provided postcode / ZIP is not valid"
+msgstr "Указан неверный почтовый индекс"
+
+#. translators: %1$s given state, %2$s valid states
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:140
+msgid "The provided state (%1$s) is not valid. Must be one of: %2$s"
+msgstr "Указанное состояние (%1$s) недопустимо. Допустимы: %2$s"
+
+#. translators: %s valid country codes
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:128
+msgid "Invalid country code provided. Must be one of: %s"
+msgstr "Указан неверный код страны. Должен соответствовать одному из этих: %s"
+
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:157
+msgid "The provided phone number is not valid"
+msgstr "Предоставленный телефон недействителен"
+
+#: src/StoreApi/Schemas/V1/BillingAddressSchema.php:77
+msgid "The provided email address is not valid"
+msgstr "Предоставленный Email недействителен"
+
+#. translators: %s Field label.
+#: src/StoreApi/Utilities/OrderController.php:403
+msgid "%s is required"
+msgstr "требуется %s"
+
+#: src/StoreApi/Utilities/OrderController.php:316
+msgid "billing address"
+msgstr "платежный адрес"
+
+#: src/StoreApi/Utilities/OrderController.php:316
+msgid "shipping address"
+msgstr "адрес доставки"
+
+#. translators: %s Address type.
+#: src/StoreApi/Utilities/OrderController.php:315
+msgid "There was a problem with the provided %s:"
+msgstr "Возникла проблема с предоставленным %s:"
+
+#. translators: %s country code.
+#: src/StoreApi/Utilities/OrderController.php:284
+msgid "Sorry, we do not allow orders from the provided country (%s)"
+msgstr "К сожалению, мы не принимаем заказы из указанной страны (%s)"
+
+#. translators: %s country code.
+#: src/StoreApi/Utilities/OrderController.php:269
+msgid "Sorry, we do not ship orders to the provided country (%s)"
+msgstr "К сожалению, мы не доставляем заказы в эту страну (%s)"
+
+#. translators: %s provided email.
+#: src/StoreApi/Utilities/OrderController.php:244
+msgid "The provided email address (%s) is not valid—please provide a valid email address"
+msgstr "Указанный адрес электронной почты (%s) недействителен – укажите действующий адрес электронной почты"
+
+#: src/StoreApi/Utilities/OrderController.php:234
+msgid "A valid email address is required"
+msgstr "Необходим корректный адрес электронной почты"
+
+#: src/StoreApi/Routes/V1/Checkout.php:522
+msgid "An account is already registered with your email address. Please log in before proceeding."
+msgstr "Учётная запись с таким адресом электронной почты уже зарегистрирована. Прежде чем продолжить, войдите в систему."
+
+#: src/StoreApi/Routes/V1/Checkout.php:379
+msgid "Unable to create order"
+msgstr "Не удалось создать заказ"
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:302
+msgid "Whether the product is visible in the catalog"
+msgstr "Видимость товара в каталоге"
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:253
+#: src/StoreApi/Schemas/V1/OrderSchema.php:204
+msgid "Total tax on shipping. If shipping has not been calculated, a null response will be sent."
+msgstr "Итоговая сумма налогов на доставку. Если стоимость доставки не определена, будет возвращено нулевое значение."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:247
+msgid "Total price of shipping. If shipping has not been calculated, a null response will be sent."
+msgstr "Итоговая стоимость доставки. Если стоимость доставки не определена, будет возвращено нулевое значение."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:187
+msgid "True if the cart meets the criteria for showing shipping costs, and rates have been calculated and included in the totals."
+msgstr "Значение True, если корзина удовлетворяет критериям для отображения стоимости доставки, а тарифы рассчитаны и учтены в итоговой сумме."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:136
+#: src/StoreApi/Schemas/V1/OrderSchema.php:259
+msgid "Current set billing address for the customer."
+msgstr "Текущий адрес для выставления счёта этому клиенту."
+
+#: src/StoreApi/Schemas/V1/CartCouponSchema.php:41
+#: src/StoreApi/Schemas/V1/OrderCouponSchema.php:36
+msgid "The discount type for the coupon (e.g. percentage or fixed amount)"
+msgstr "Тип скидки по купону (в процентах или фиксированная величина)"
+
+#: src/StoreApi/Schemas/V1/CartCouponSchema.php:32
+msgid "The coupon's unique code."
+msgstr "Уникальный код купона."
+
+#. translators: %s: extension namespace
+#: src/StoreApi/Schemas/ExtendSchema.php:335
+#: src/StoreApi/Schemas/ExtendSchema.php:343
+msgid "Extension data registered by %s"
+msgstr "Данные расширения зарегистрированы %s"
+
+#: templates/emails/plain/customer-new-account-blocks.php:24
+msgid "To set your password, visit the following address: "
+msgstr "Чтобы установить пароль, перейдите по следующему адресу: "
+
+#. translators: %s: Customer username
+#: templates/emails/plain/customer-new-account-blocks.php:19
+msgid "Hi %s,"
+msgstr "Привет, %s,"
+
+#: templates/emails/customer-new-account-blocks.php:27
+msgid "Click here to set your new password."
+msgstr "Нажмите здесь, чтобы задать новый пароль."
+
+#. translators: %1$s: Site title, %2$s: Username, %3$s: My account link
+#: templates/emails/customer-new-account-blocks.php:25
+#: templates/emails/plain/customer-new-account-blocks.php:21
+msgid "Thanks for creating an account on %1$s. Your username is %2$s. You can access your account area to view orders, change your password, and more at: %3$s"
+msgstr "Спасибо за регистрацию на %1$s. Напоминаем, что вы выбрали имя пользователя %2$s. Теперь вы можете авторизоваться, чтобы просмотреть заказы, изменить пароль и т.д. здесь: %3$s"
+
+#. translators: %s: Customer username
+#: templates/emails/customer-new-account-blocks.php:23
+msgid "Hello %s,"
+msgstr "Привет, %s,"
+
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:133
+msgid "Whether to create a new user account as part of order processing."
+msgstr "Нужно ли создать новую учетную запись пользователя в ходе обработки заказа."
+
+#: src/StoreApi/Routes/V1/Checkout.php:516
+msgid "Please provide a valid email address."
+msgstr "Пожалуйста, укажите действующий адрес электронной почты."
+
+#: src/Domain/Services/Email/CustomerNewAccount.php:172
+msgid "We look forward to seeing you soon."
+msgstr "До скорой встречи."
+
+#: src/Domain/Services/Email/CustomerNewAccount.php:84
+msgid "Welcome to {site_title}"
+msgstr "Добро пожаловать на {site_title}"
+
+#: src/Domain/Services/Email/CustomerNewAccount.php:74
+msgid "Your {site_title} account has been created!"
+msgstr "Ваш аккаунт на {site_title} создан!"
+
+#: src/Domain/Services/Email/CustomerNewAccount.php:57
+msgid "New account"
+msgstr "Новый аккаунт"
+
+#. translators: %1$s is referring to a php constant name, %2$s is referring to
+#. the wp-config.php file.
+#: woocommerce-gutenberg-products-block.php:106
+msgid "WooCommerce Blocks development mode requires the %1$s constant to be defined and true in your %2$s file. Otherwise you are loading the blocks package from WooCommerce core."
+msgstr "Режим разработки блоков WooCommerce требует, чтобы константа %1$s была задана в файле %2$s и имела значение true. В противном случае загружается пакет блоков из ядра WooCommerce."
+
+#: src/BlockTypes/ProductStockIndicator.php:62 build/all-products.js:11
+#: build/cart-blocks/cart-line-items-frontend.js:7 build/cart.js:8
+#: build/checkout-blocks/order-summary-cart-items-frontend.js:2
+#: build/checkout.js:23
+#: build/mini-cart-contents-block/products-table-frontend.js:7
+#: build/mini-cart-contents.js:9 build/product-stock-indicator-frontend.js:2
+#: build/product-stock-indicator.js:2
+msgid "Available on backorder"
+msgstr "Доступно по предзаказу"
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:168
+msgid "Taxes applied to this shipping rate using the smallest unit of the currency."
+msgstr "Налоги, применяемые к этому тарифу доставки и указанные в самой мелкой денежной единице."
+
+#: src/StoreApi/Schemas/V1/ProductAttributeSchema.php:42
+msgid "The attribute taxonomy name."
+msgstr "Название таксономии атрибута."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:417
+msgid "Add to cart URL."
+msgstr "Ссылка добавления в корзину."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:381
+msgid "Is the product stock backordered? This will also return false if backorder notifications are turned off."
+msgstr "Запасы товара относятся к невыполненному заказу? Также даст ложный результат, если выключены уведомления о невыполненном заказе."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:363
+msgid "Does the product have additional options before it can be added to the cart?"
+msgstr "Есть ли у товара дополнительные параметры, которые можно настроить перед добавлением в корзину?"
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:351
+msgid "The assigned attribute."
+msgstr "Назначенный атрибут."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:338
+msgid "List of variation attributes."
+msgstr "Список атрибутов вариации."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:307
+msgid "The term slug."
+msgstr "Ярлык значения."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:301
+msgid "The term name."
+msgstr "Название значения."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:295
+msgid "The term ID, or 0 if the attribute is not a global attribute."
+msgstr "ID значения или 0, если атрибут не является глобальным."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:288
+msgid "List of assigned attribute terms."
+msgstr "Список значений назначенных атрибутов."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:282
+msgid "True if this attribute is used by product variations."
+msgstr "Верно, если данный атрибут используется вариациями товаров."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:276
+msgid "The attribute taxonomy, or null if the attribute is not taxonomy based."
+msgstr "Таксономия атрибута или «null», если атрибут не основан на таксономии."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:270
+#: src/StoreApi/Schemas/V1/ProductSchema.php:345
+msgid "The attribute name."
+msgstr "Название атрибута."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:264
+#: src/StoreApi/Schemas/V1/ProductSchema.php:332
+msgid "The attribute ID, or 0 if the attribute is not taxonomy based."
+msgstr "ID атрибута или 0, если атрибут не основан на таксономии."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:248
+msgid "Tag link"
+msgstr "Ссылка метки"
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:223
+msgid "List of tags, if applicable."
+msgstr "Список меток, если есть."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:214
+msgid "Category link"
+msgstr "Ссылка на категорию"
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:202
+msgid "Category name"
+msgstr "Название категории"
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:189
+msgid "List of categories, if applicable."
+msgstr "Список категорий, если есть."
+
+#: src/BlockTypes/Cart.php:60 assets/js/blocks/cart/index.js:22
+#: build/cart.js:33
+msgid "Cart"
+msgstr "Корзина"
+
+#: src/BlockTypes/Cart.php:87 build/cart.js:20
+msgid "New in store"
+msgstr "Новинка в магазине"
+
+#: src/BlockTypes/Cart.php:77 src/BlockTypes/MiniCart.php:575
+#: assets/js/blocks/checkout/empty-cart/index.js:23 build/cart.js:20
+#: build/checkout-frontend.js:2
+msgid "Your cart is currently empty!"
+msgstr "Сейчас ваша корзина пуста!"
+
+#: src/BlockTypes/Cart.php:78 assets/js/blocks/checkout/empty-cart/index.js:37
+#: build/checkout-frontend.js:2
+msgid "Browse store"
+msgstr "Обзор магазина"
+
+#: src/Shipping/PickupLocation.php:30 src/Shipping/PickupLocation.php:162
+#: build/cart-frontend.js:2 build/cart.js:2 build/checkout-frontend.js:2
+#: build/checkout.js:2 build/mini-cart-contents.js:1 build/wc-blocks-data.js:7
+msgid "Local pickup"
+msgstr "Самовывоз"
+
+#. translators: %s location.
+#: src/BlockTypes/OrderConfirmation/ShippingAddress.php:42
+#: build/7138-frontend.js:8 build/cart.js:27 build/checkout.js:11
+msgid "Shipping to %s"
+msgstr "Доставка до %s"
+
+#: src/BlockTypes/OrderConfirmation/Status.php:222
+#: build/checkout-blocks/contact-information-frontend.js:1 build/checkout.js:4
+msgid "Email address"
+msgstr "Email-адрес"
+
+#: src/BlockTypes/OrderConfirmation/Summary.php:37
+#: build/order-confirmation-summary.js:1
+msgid "Payment method:"
+msgstr "Метод оплаты:"
+
+#. translators: %d is number of items in stock for product
+#. translators: %d stock amount (number of items in stock for product)
+#: src/BlockTypes/ProductStockIndicator.php:58 build/all-products.js:11
+#: build/cart-blocks/cart-line-items-frontend.js:8 build/cart.js:9
+#: build/checkout-blocks/order-summary-cart-items-frontend.js:3
+#: build/checkout.js:24
+#: build/mini-cart-contents-block/products-table-frontend.js:8
+#: build/mini-cart-contents.js:10 build/product-stock-indicator-frontend.js:2
+#: build/product-stock-indicator.js:2
+msgid "%d left in stock"
+msgstr "%d осталось в наличии"
+
+#: src/StoreApi/Utilities/OrderController.php:382 build/wc-settings.js:1
+msgid "State/County"
+msgstr "Область/район"
+
+#: src/StoreApi/Utilities/OrderController.php:374 build/wc-settings.js:1
+msgid "Country/Region"
+msgstr "Страна/регион"
+
+#: src/BlockTypes/OrderConfirmation/Totals.php:39 build/7138-frontend.js:5
+#: build/cart-blocks/cart-express-payment-frontend.js:3
+#: build/cart-blocks/cart-line-items-frontend.js:11 build/cart.js:12
+#: build/cart.js:19 build/cart.js:24
+#: build/checkout-blocks/express-payment-frontend.js:3
+#: build/checkout-blocks/payment-frontend.js:3 build/checkout.js:8
+#: build/checkout.js:18 build/legacy-template.js:7
+#: build/mini-cart-contents-block/products-table-frontend.js:11
+#: build/mini-cart-contents.js:13 build/order-confirmation-totals.js:1
+msgid "Total"
+msgstr "Итого"
+
+#. translators: If your word count is based on single characters (e.g. East
+#. Asian characters), enter 'characters_excluding_spaces' or
+#. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
+#. into your own language.
+#: src/BlockTypes/AbstractBlock.php:444
+msgctxt "Word count type. Do not translate!"
+msgid "words"
+msgstr "слов"
+
+#. translators: %s: number of orders
+#: src/Domain/Services/DraftOrders.php:109
+msgid "Drafts <span class=\"count\">(%s)</span>"
+msgid_plural "Drafts <span class=\"count\">(%s)</span>"
+msgstr[0] "Черновик <span class=\"count\">(%s)</span>"
+msgstr[1] "Черновики <span class=\"count\">(%s)</span>"
+msgstr[2] "Черновики <span class=\"count\">(%s)</span>"
+
+#: src/Domain/Services/DraftOrders.php:79
+#: src/Domain/Services/DraftOrders.php:103
+msgctxt "Order status"
+msgid "Draft"
+msgstr "Черновик"
+
+#: src/BlockTypes/Checkout.php:455
+msgid "Credit card"
+msgstr "Банковская карта"
+
+#. translators: %1$s table name, %2$s database user, %3$s database name.
+#: src/Installer.php:114
+msgid "WooCommerce %1$s table creation failed. Does the %2$s user have CREATE privileges on the %3$s database?"
+msgstr "Сбой создания таблицы %1$s WooCommerce. Есть ли у пользователя %2$s права на СОЗДАНИЕ в базе данных %3$s?"
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:325
+msgid "List of variation IDs, if applicable."
+msgstr "Список ID вариантов, если есть."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:162
+msgid "Price string formatted as HTML."
+msgstr "Строка цены, форматированная в HTML."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:113
+msgid "Price data provided using the smallest unit of the currency."
+msgstr "Информация о цене в самой мелкой единице валюты."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:68
+msgid "ID of the parent product, if applicable."
+msgstr "Идентификатор родительского товара, если есть."
+
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:165
+msgid "A URL to redirect the customer after checkout. This could be, for example, a link to the payment processors website."
+msgstr "URL для переадресации клиентов после оформления заказа. Например, это может быть ссылка на веб-сайт платёжной системы."
+
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:149
+msgid "An array of data being returned from the payment gateway."
+msgstr "Массив данных, возвращаемый из платежного шлюза."
+
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:144
+msgid "Status of the payment returned by the gateway. One of success, pending, failure, error."
+msgstr "Статус платежа, возвращаемого шлюзом. Один из вариантов: успешно, в ожидании, сбой, ошибка."
+
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:138
+msgid "Result of payment processing, or false if not yet processed."
+msgstr "Результат обработки платежа, или ложный результат, если обработка не завершена."
+
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:125
+msgid "The ID of the payment method being used to process the payment."
+msgstr "Идентификатор способа оплаты, используемого для обработки платежа."
+
+#: src/StoreApi/Routes/V1/CartUpdateCustomer.php:51
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:115
+msgid "Shipping address."
+msgstr "Адрес доставки."
+
+#: src/StoreApi/Routes/V1/CartUpdateCustomer.php:44
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:104
+msgid "Billing address."
+msgstr "Платёжный адрес."
+
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:98
+msgid "Customer ID if registered. Will return 0 for guests."
+msgstr "Идентификатор клиента, если он зарегистрирован. Будет равен 0 для гостей."
+
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:93
+msgid "Note added to the order by the customer during checkout."
+msgstr "Примечание, добавленное клиентом к заказу в процессе его оформления."
+
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:81
+msgid "Order key used to check validity or protect access to certain order data."
+msgstr "Ключ заказа, используемый для проверки точности или защиты доступа к некоторым данным заказ."
+
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:75
+msgid "Order status. Payment providers will update this value after payment."
+msgstr "Статус заказа. Платежный сервис обновит это значение после платежа."
+
+#: src/StoreApi/Schemas/V1/CheckoutSchema.php:69
+msgid "The order ID to process during checkout."
+msgstr "Идентификатор заказа для обработки во время оформления заказа."
+
+#: src/StoreApi/Utilities/CartController.php:867
+msgctxt "shipping packages"
+msgid "Shipment 1"
+msgstr "Доставка 1"
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:208
+msgid "True if this is the rate currently selected by the customer for the cart."
+msgstr "Верно, если данный тариф в настоящий момент отложен клиентом в корзину."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:186
+msgid "Meta data attached to the shipping rate."
+msgstr "Метаданные тарифа доставки."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:180
+msgid "Instance ID of the shipping method that provided the rate."
+msgstr "Идентификатор экземпляра способа доставки, на основе которого был рассчитан тариф."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:174
+msgid "ID of the shipping method that provided the rate."
+msgstr "Идентификатор способа доставки, на основе которого был рассчитан тариф."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:162
+msgid "Price of this shipping rate using the smallest unit of the currency."
+msgstr "Цена по этому тарифу доставки, указанная в самой мелкой денежной единице."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:156
+msgid "Delivery time estimate text, e.g. 3-5 business days."
+msgstr "Текстовое описание примерного времени доставки, например \"3−5 рабочих дней\"."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:150
+msgid "Description of the shipping rate, e.g. Dispatched via USPS."
+msgstr "Описание тарифа доставки, например «Доставляется курьерской службой СДЭК»."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:144
+msgid "Name of the shipping rate, e.g. Express shipping."
+msgstr "Название тарифа доставки, например \"Быстрая доставка\"."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:138
+msgid "ID of the shipping rate."
+msgstr "Идентификатор тарифа на доставку."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:117
+msgid "List of shipping rates."
+msgstr "Список тарифов доставки."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:108
+msgid "Quantity of the item in the current package."
+msgstr "Количество товаров в текущем пакете."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:102
+msgid "Name of the item."
+msgstr "Название товара."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:88
+msgid "List of cart items the returned shipping rates apply to."
+msgstr "Список товаров в корзине, к которым применяются тарифы доставки."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:44
+msgid "Shipping destination address."
+msgstr "Адрес назначения посылки."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:38
+msgid "Name of the package."
+msgstr "Название пакета."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:32
+msgid "The ID of the package the shipping rates belong to."
+msgstr "ID пакета, к которому относятся тарифы доставки."
+
+#: src/StoreApi/Schemas/V1/ProductCategorySchema.php:59
+msgid "Number of reviews for products in this category."
+msgstr "Количество отзывов на товары в этой категории."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:293
+msgid "Line total tax."
+msgstr "Итоговая сумма налога строки."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:287
+msgid "Line total (the price of the product after coupon discounts have been applied)."
+msgstr "Итог строки (цена товара после применения скидки купона)."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:281
+msgid "Line subtotal tax."
+msgstr "Подытог налога позиции."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:275
+msgid "Line subtotal (the price of the product before coupon discounts have been applied)."
+msgstr "Промежуточный итог строки (цена товара перед применением скидки купона)."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:267
+msgid "Item total amounts provided using the smallest unit of the currency."
+msgstr "Общая сумма для товара, указанная в самой мелкой денежной единице."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:238
+msgid "Decimal precision of the returned prices."
+msgstr "Десятичная точность возвращаемых цен."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:232
+msgid "Raw unrounded product prices used in calculations. Provided using a higher unit of precision than the currency."
+msgstr "Чистые неокруглённые цены товаров, используемые в вычислениях. Указывается с использованием более высокой единицы точности, чем валюта."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:186
+msgid "Price data for the product in the current line item, including or excluding taxes based on the \"display prices during cart and checkout\" setting. Provided using the smallest unit of the currency."
+msgstr "Информация о цене товара в текущей позиции, включая или исключая налоги, в зависимости от настройки «Отображение цен в корзине или при оформлении заказа», указанной в самой мелкой денежной единице."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:111
+#: src/StoreApi/Schemas/V1/ProductSchema.php:393
+msgid "If true, only one item of this product is allowed for purchase in a single order."
+msgstr "Если верно, то одним заказом можно приобрести лишь одну единицу данного товара."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:99
+msgid "True if backorders are allowed past stock availability."
+msgstr "Верно, если разрешается предзаказ после наличия на складе."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:93
+#: src/StoreApi/Schemas/V1/ProductSchema.php:387
+msgid "Quantity left in stock if stock is low, or null if not applicable."
+msgstr "Количество товара в наличии, если запас на исходе, или ноль, если неприменимо."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:81
+#: src/StoreApi/Schemas/V1/ProductSchema.php:97
+msgid "Product full description in HTML format."
+msgstr "Полное описание товара в формате HTML."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:75
+#: src/StoreApi/Schemas/V1/ProductSchema.php:92
+msgid "Product short description in HTML format."
+msgstr "Краткое описание товара в формате HTML."
+
+#. Translators: %s amount.
+#: src/StoreApi/Utilities/QuantityLimits.php:113
+msgid "The maximum quantity that can be added to the cart is %s"
+msgstr "Максимальное количество, допустимое для единоразового добавления в корзину = %s"
+
+#: src/StoreApi/Schemas/V1/ErrorSchema.php:36
+msgid "Error message"
+msgstr "Сообщение об ошибке"
+
+#: src/StoreApi/Schemas/V1/ErrorSchema.php:30
+msgid "Error code"
+msgstr "Код ошибки"
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:303
+#: src/StoreApi/Schemas/V1/OrderSchema.php:278
+msgid "List of cart item errors, for example, items in the cart which are out of stock."
+msgstr "Список ошибок товаров в корзине, например, тех, что нет в наличии."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:285
+#: src/StoreApi/Schemas/V1/OrderSchema.php:224
+msgid "The amount of tax charged."
+msgstr "Сумма налога."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:279
+#: src/StoreApi/Schemas/V1/OrderSchema.php:218
+msgid "The name of the tax."
+msgstr "Название налога."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:271
+#: src/StoreApi/Schemas/V1/OrderSchema.php:210
+msgid "Lines of taxes applied to items and shipping."
+msgstr "Действие налогов распространяется на товары и доставку."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:265
+msgid "Total tax applied to items and shipping."
+msgstr "Итоговая сумма налогов на товары и доставку."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:259
+#: src/StoreApi/Schemas/V1/OrderSchema.php:174
+msgid "Total price the customer will pay."
+msgstr "Итоговая сумма, которую заплатит клиент."
+
+#: src/StoreApi/Schemas/V1/OrderSchema.php:150
+msgid "Total price of shipping."
+msgstr "Общая стоимость доставки."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:241
+#: src/StoreApi/Schemas/V1/OrderSchema.php:198
+msgid "Total tax removed due to discount from applied coupons."
+msgstr "Итоговая сумма снижения налога после применения скидок купонов."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:235
+#: src/StoreApi/Schemas/V1/OrderSchema.php:144
+msgid "Total discount from applied coupons."
+msgstr "Итоговая сумма скидок применённых купонов."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:229
+#: src/StoreApi/Schemas/V1/OrderSchema.php:192
+msgid "Total tax on fees."
+msgstr "Итоговая сумма налогов на комиссии."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:223
+#: src/StoreApi/Schemas/V1/OrderSchema.php:156
+msgid "Total price of any applied fees."
+msgstr "Итоговая сумма действующих комиссий."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:217
+msgid "Total tax on items in the cart."
+msgstr "Итоговая сумма налога на товары в корзине."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:211
+msgid "Total price of items in the cart."
+msgstr "Итоговая стоимость товаров в корзине."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:203
+msgid "Cart total amounts provided using the smallest unit of the currency."
+msgstr "Итоговая сумма корзины, указанная в самой мелкой денежной единице."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:175
+#: src/StoreApi/Schemas/V1/OrderSchema.php:266
+msgid "True if the cart needs payment. False for carts with only free products and no shipping costs."
+msgstr "Верно, если необходимо оплатить корзину. Неверно для корзин, включающих только бесплатные товары без стоимости доставки."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:129
+#: src/StoreApi/Schemas/V1/OrderSchema.php:252
+msgid "Current set shipping address for the customer."
+msgstr "Заданный адрес доставки клиента."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:119
+msgid "List of available shipping rates for the cart."
+msgstr "Список доступных тарифов доставки для этой корзины."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:109
+#: src/StoreApi/Schemas/V1/OrderSchema.php:242
+msgid "List of applied cart coupons."
+msgstr "Список примененных к корзине купонов."
+
+#: src/StoreApi/Schemas/V1/ProductCollectionDataSchema.php:53
+msgid "Returns number of products within attribute terms."
+msgstr "Выдаёт количество товаров в пределах атрибутов."
+
+#: src/StoreApi/Schemas/V1/ProductCollectionDataSchema.php:30
+msgid "Min and max prices found in collection of products, provided using the smallest unit of the currency."
+msgstr "Минимальная и максимальная цены товаров, указанные в самых мелких денежных единицах."
+
+#: src/StoreApi/Schemas/V1/TermSchema.php:54
+msgid "Parent term ID, if applicable."
+msgstr "Идентификатор родительского условия, если применимо."
+
+#: src/StoreApi/Schemas/V1/AbstractSchema.php:346
+#: src/StoreApi/Schemas/V1/AbstractSchema.php:352
+msgid "Price prefix for the currency which can be used to format returned prices."
+msgstr "Префикс цены, который может использоваться для форматирования возвращаемых цен."
+
+#: src/StoreApi/Schemas/V1/AbstractSchema.php:340
+msgid "Thousand separator for the currency which can be used to format returned prices."
+msgstr "Разделитель тысяч, который может использоваться для форматирования возвращаемых цен."
+
+#: src/StoreApi/Schemas/V1/AbstractSchema.php:334
+msgid "Decimal separator for the currency which can be used to format returned prices."
+msgstr "Десятичный разделитель для валюты, которая будет использоваться для возвращаемых цен."
+
+#: src/StoreApi/Schemas/V1/AbstractSchema.php:328
+msgid "Currency minor unit (number of digits after the decimal separator) for returned prices."
+msgstr "Дробная единица валюты (количество цифр после десятичного знака) для возвращаемых цен."
+
+#: src/StoreApi/Schemas/V1/AbstractSchema.php:322
+msgid "Currency symbol for the currency which can be used to format returned prices."
+msgstr "Символ валюты, которая будет использоваться для возвращаемых цен."
+
+#: src/StoreApi/Schemas/V1/AbstractSchema.php:316
+msgid "Currency code (in ISO format) for returned prices."
+msgstr "Код валюты (в формате  ISO) для возвращаемых цен."
+
+#: src/StoreApi/Schemas/V1/CartCouponSchema.php:63
+#: src/StoreApi/Schemas/V1/OrderCouponSchema.php:56
+msgid "Total tax removed due to discount applied by this coupon."
+msgstr "Итоговая сумма снижения налога после применения скидки купона."
+
+#: src/StoreApi/Schemas/V1/CartCouponSchema.php:57
+#: src/StoreApi/Schemas/V1/OrderCouponSchema.php:50
+msgid "Total discount applied by this coupon."
+msgstr "Итоговая сумма скидки купона."
+
+#: src/StoreApi/Schemas/V1/CartCouponSchema.php:49
+#: src/StoreApi/Schemas/V1/OrderCouponSchema.php:42
+msgid "Total amounts provided using the smallest unit of the currency."
+msgstr "Итоговая сумма, указанная в самой мелкой денежной единице."
+
+#: src/StoreApi/Schemas/V1/OrderCouponSchema.php:30
+msgid "The coupons unique code."
+msgstr "Уникальный код купонов."
+
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:75
+#: build/checkout-blocks/billing-address-frontend.js:3
+#: build/checkout-blocks/shipping-address-frontend.js:3 build/checkout.js:2
+#: build/checkout.js:28
+msgid "Phone"
+msgstr "Телефон"
+
+#: src/StoreApi/Schemas/V1/BillingAddressSchema.php:38
+#: build/legacy-template.js:7
+msgid "Email"
+msgstr "Email"
+
+#. translators: Placeholders are class and method names
+#: src/StoreApi/Schemas/V1/BillingAddressSchema.php:122
+#: src/StoreApi/Schemas/V1/ShippingAddressSchema.php:64
+msgid "%1$s requires an instance of %2$s or %3$s for the address"
+msgstr "%1$s требует экземпляр %2$s или %3$s для адреса"
+
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:69
+msgid "Country/Region code in ISO 3166-1 alpha-2 format."
+msgstr "Код страны/региона в формате ISO 3166-1 alpha-2."
+
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:63
+#: src/StoreApi/Utilities/OrderController.php:386 build/wc-settings.js:1
+msgid "Postal code"
+msgstr "Почтовый индекс"
+
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:57
+msgid "State/County code, or name of the state, county, province, or district."
+msgstr "Код области/региона или название области, района или провинции."
+
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:51
+#: src/StoreApi/Utilities/OrderController.php:378 build/wc-settings.js:1
+#: build/wc-shipping-method-pickup-location.js:232
+msgid "City"
+msgstr "Город"
+
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:45
+#: src/StoreApi/Utilities/OrderController.php:370 build/checkout.js:28
+#: build/wc-settings.js:1
+msgid "Apartment, suite, etc."
+msgstr "Крыло, этаж и т.д."
+
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:39
+#: src/StoreApi/Utilities/OrderController.php:366 build/wc-settings.js:1
+#: build/wc-shipping-method-pickup-location.js:232
+msgid "Address"
+msgstr "Адрес"
+
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:33
+#: src/StoreApi/Utilities/OrderController.php:362 build/checkout.js:28
+#: build/wc-settings.js:1
+msgid "Company"
+msgstr "Компания"
+
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:27
+#: src/StoreApi/Utilities/OrderController.php:358 build/wc-settings.js:1
+msgid "Last name"
+msgstr "Фамилия"
+
+#: src/StoreApi/Schemas/V1/AbstractAddressSchema.php:21
+#: src/StoreApi/Utilities/OrderController.php:354 build/wc-settings.js:1
+msgid "First name"
+msgstr "Имя"
+
+#: src/StoreApi/Routes/V1/Products.php:344
+msgid "Limit result set to products based on a maximum price, provided using the smallest unit of the currency."
+msgstr "Ограничить результаты товарами на основе максимальной цены, указанной с использованием самых мелких денежных единиц."
+
+#: src/StoreApi/Routes/V1/Products.php:337
+msgid "Limit result set to products based on a minimum price, provided using the smallest unit of the currency."
+msgstr "Ограничить результаты товарами на основе минимальной цены, указанной с использованием самых мелких денежных единиц."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:80
+msgid "ISO code for the country of the address being shipped to."
+msgstr "Код ISO страны, в которую выполняется доставка."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:74
+msgid "Zip or Postcode of the address being shipped to."
+msgstr "Почтовый индекс, соответствующий адресу доставки."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:68
+msgid "ISO code, or name, for the state, province, or district of the address being shipped to."
+msgstr "Код ISO или название края, области, провинции или района, куда выполняется доставка."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:62
+msgid "City of the address being shipped to."
+msgstr "Город, в который выполняется доставка."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:56
+msgid "Second line of the address being shipped to."
+msgstr "Вторая строка адреса доставки."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:50
+msgid "First line of the address being shipped to."
+msgstr "Первая строка адреса доставки."
+
+#: src/StoreApi/Routes/V1/CartCouponsByCode.php:73
+#: src/StoreApi/Routes/V1/CartCouponsByCode.php:88
+msgid "Coupon does not exist in the cart."
+msgstr "В корзине нет купона."
+
+#: src/StoreApi/Routes/V1/AbstractRoute.php:263
+msgid "Scope under which the request is made; determines fields present in response."
+msgstr "Рамки в которых сделан запрос, определяют поля в ответе."
+
+#: src/StoreApi/Routes/V1/AbstractRoute.php:169
+#: src/StoreApi/Routes/V1/AbstractRoute.php:182
+#: src/StoreApi/Routes/V1/AbstractRoute.php:195
+#: src/StoreApi/Routes/V1/AbstractRoute.php:208
+msgid "Method not implemented"
+msgstr "Метод не применён"
+
+#: src/StoreApi/Routes/V1/CartUpdateItem.php:41
+msgid "New quantity of the item in the cart."
+msgstr "Новое количество товаров в корзине."
+
+#: src/StoreApi/Routes/V1/CartUpdateItem.php:37
+msgid "Unique identifier (key) for the cart item to update."
+msgstr "Уникальный идентификатор (ключ) для обновления товара в корзине."
+
+#. Translators: %s Payment method ID.
+#: src/StoreApi/Routes/V1/CheckoutOrder.php:247
+msgid "The %s payment gateway is not available."
+msgstr "Платежный шлюз %s недоступен."
+
+#: src/StoreApi/Routes/V1/Checkout.php:463
+#: src/StoreApi/Routes/V1/CheckoutOrder.php:235
+msgid "No payment method provided."
+msgstr "Способ платы не указан."
+
+#: src/StoreApi/Utilities/CheckoutTrait.php:85
+msgid "Invalid payment result received from payment method."
+msgstr "От способа оплаты получен результат недопустимого платежа."
+
+#: src/StoreApi/Routes/V1/Checkout.php:82
+#: src/StoreApi/Routes/V1/CheckoutOrder.php:61
+msgid "Data to pass through to the payment method when processing payment."
+msgstr "Данные, необходимые службе оплаты для обработки платежа."
+
+#: src/StoreApi/Routes/V1/CartSelectShippingRate.php:64
+msgid "Shipping is disabled."
+msgstr "Доставка отключена."
+
+#: src/StoreApi/Routes/V1/CartSelectShippingRate.php:44
+msgid "The chosen rate ID for the package."
+msgstr "ID выбранного для пакета тарифа."
+
+#: src/StoreApi/Routes/V1/AbstractTermsRoute.php:94
+msgid "If true, empty terms will not be returned."
+msgstr "Если установлено значение true, пустые условия не будут возвращаться."
+
+#: src/StoreApi/Routes/V1/AbstractTermsRoute.php:82
+msgid "Sort by term property."
+msgstr "Сортировать по свойству условия."
+
+#: src/StoreApi/Routes/V1/AbstractTermsRoute.php:74
+msgid "Sort ascending or descending."
+msgstr "Сортировка по возрастанию или убыванию."
+
+#: src/StoreApi/Routes/V1/ProductCategoriesById.php:73
+msgid "Invalid category ID."
+msgstr "Недопустимый идентификатор категории."
+
+#: src/StoreApi/Routes/V1/CartRemoveCoupon.php:70
+msgid "Coupon cannot be removed because it is not already applied to the cart."
+msgstr "Невозможно удалить купон, так как он уже применен к корзине."
+
+#: src/StoreApi/Routes/V1/CartRemoveCoupon.php:66
+msgid "Invalid coupon code."
+msgstr "Неверный код купона."
+
+#: src/StoreApi/Routes/V1/CartApplyCoupon.php:58
+#: src/StoreApi/Routes/V1/CartCoupons.php:97
+#: src/StoreApi/Routes/V1/CartRemoveCoupon.php:58
+msgid "Coupons are disabled."
+msgstr "Купоны отключены."
+
+#: src/StoreApi/Routes/V1/CartApplyCoupon.php:39
+#: src/StoreApi/Routes/V1/CartCouponsByCode.php:42
+#: src/StoreApi/Routes/V1/CartRemoveCoupon.php:39
+msgid "Unique identifier for the coupon within the cart."
+msgstr "Уникальный идентификатор купона в корзине."
+
+#: src/StoreApi/Routes/V1/CartRemoveItem.php:64
+msgid "Cart item no longer exists or is invalid."
+msgstr "Товара в корзине больше не существует или он недействительный."
+
+#: src/StoreApi/Routes/V1/CartRemoveItem.php:42
+msgid "Unique identifier (key) for the cart item."
+msgstr "Уникальный идентификатор (ключ) товара в корзине."
+
+#: src/StoreApi/Routes/V1/ProductReviews.php:216
+msgid "Limit result set to reviews from specific category IDs."
+msgstr "Ограничение результатов отзывами о товарах в конкретных категориях."
+
+#: src/StoreApi/Routes/V1/AbstractTermsRoute.php:38
+#: src/StoreApi/Routes/V1/ProductReviews.php:177
+#: src/StoreApi/Routes/V1/Products.php:128
+msgid "Maximum number of items to be returned in result set. Defaults to no limit if left blank."
+msgstr "Максимальное количество элементов, возвращаемых в результирующем наборе. При пустом поле ограничения отсутствуют."
+
+#. translators: %s: product name
+#: src/StoreApi/Utilities/CartController.php:1115
+msgid "&quot;%s&quot; is not available for purchase."
+msgstr "«%s» невозможно оформить для покупки."
+
+#. translators: %1$s coupon code, %2$s reason.
+#: src/StoreApi/Utilities/CartController.php:1025
+msgid "The \"%1$s\" coupon has been removed from your cart: %2$s"
+msgstr "Купон \"%1$s\" удален из вашей корзины: %2$s"
+
+#. translators: %s: coupon code
+#: src/StoreApi/Utilities/CartController.php:964
+msgid "\"%s\" has already been applied and cannot be used in conjunction with other coupons."
+msgstr "«%s» уже применён и не может использоваться вместе с другими купонами."
+
+#. translators: %s coupon code
+#: src/StoreApi/Utilities/CartController.php:920
+msgid "Coupon code \"%s\" has already been applied."
+msgstr "Код купона «%s» уже применён."
+
+#. translators: %s coupon code
+#: src/StoreApi/Utilities/CartController.php:908
+msgid "\"%s\" is an invalid coupon code."
+msgstr "«%s» является недействительным кодом купона."
+
+#: src/StoreApi/Utilities/CartController.php:197
+msgid "Cart item is invalid."
+msgstr "В корзине находится недопустимый товар."
+
+#. translators: %s Coupon codes.
+#: src/StoreApi/Utilities/OrderController.php:211
+msgid "Invalid coupons were removed from the cart: \"%s\""
+msgstr "Недействительные купоны удалены из корзины: «%s»."
+
+#: src/StoreApi/Utilities/OrderController.php:24
+msgid "Cannot create order from empty cart."
+msgstr "Невозможно создать заказ, когда корзина пуста."
+
+#. translators: %s number of products in cart.
+#. translators: %d is the count of products.
+#: src/BlockTypes/ProductCategories.php:397
+#: assets/js/editor-components/product-category-control/index.js:89
+#: build/featured-category.js:12 build/featured-product.js:12
+#: build/product-best-sellers.js:11 build/product-category.js:11
+#: build/product-collection.js:10 build/product-new.js:11
+#: build/product-on-sale.js:11 build/product-query.js:10
+#: build/product-top-rated.js:11 build/products-by-attribute.js:10
+#: build/reviews-by-category.js:11
+msgid "%d product"
+msgid_plural "%d products"
+msgstr[0] "%d товар"
+msgstr[1] "%d товара"
+msgstr[2] "%d товаров"
+
+#: src/BlockTypes/ProductCategories.php:237
+msgid "List of categories with their product counts"
+msgstr "Список категорий с указанием количества товаров"
+
+#: src/BlockTypes/AbstractProductGrid.php:623
+#: src/BlockTypes/ProductSaleBadge.php:117 build/all-products.js:10
+#: build/cart-blocks/cart-cross-sells-products-frontend.js:2 build/cart.js:12
+#: build/product-image-frontend.js:2 build/product-image.js:2
+#: build/product-sale-badge-frontend.js:1 build/product-sale-badge.js:1
+msgid "Product on sale"
+msgstr "Продаваемый товар"
+
+#: src/StoreApi/Routes/V1/ProductCollectionData.php:159
+msgid "Filter condition\t being performed which may affect counts. Valid values include \"and\" and \"or\"."
+msgstr "Состояние фильтра\t выполняется, что может повлиять на подсчёт. Допустимые значения включают «и» и «или»."
+
+#: src/StoreApi/Routes/V1/ProductCollectionData.php:153
+msgid "Taxonomy name."
+msgstr "Название таксономии."
+
+#: patterns/filters.php:22 build/filter-wrapper.js:1 build/price-filter.js:5
+msgid "Filter by price"
+msgstr "Фильтрация по цене"
+
+#: patterns/filters.php:12 build/active-filters.js:8 build/filter-wrapper.js:1
+msgid "Active filters"
+msgstr "Активные фильтры"
+
+#: patterns/filters.php:42 build/attribute-filter.js:19
+#: build/filter-wrapper.js:1
+msgid "Filter by attribute"
+msgstr "Фильтрация по атрибутам"
+
+#: patterns/store-info-alt-image-and-text.php:86
+#: assets/js/blocks/products/edit-utils.js:36 build/all-products.js:25
+#: build/attribute-filter.js:19 build/classic-shortcode.js:1
+#: build/price-filter.js:5 build/wc-shipping-method-pickup-location.js:232
+msgid "Learn more"
+msgstr "Узнать больше"
+
+#: assets/js/atomic/blocks/product-elements/button/block.json
+#: build/product-button/block.json
+msgctxt "block description"
+msgid "Display a call to action button which either adds the product to the cart, or links to the product page."
+msgstr "Отображение кнопки добавления товара в корзину либо переадресации на его страницу."
+
+#: src/BlockTypes/AbstractProductGrid.php:622
+#: src/BlockTypes/ProductImage.php:111 src/BlockTypes/ProductSaleBadge.php:115
+#: build/all-products.js:10
+#: build/cart-blocks/cart-cross-sells-products-frontend.js:2 build/cart.js:12
+#: build/product-image-frontend.js:2 build/product-image.js:2
+#: build/product-sale-badge-frontend.js:1 build/product-sale-badge.js:1
+msgid "Sale"
+msgstr "Распродажа"
+
+#: woocommerce-gutenberg-products-block.php:69
+msgid "The WooCommerce Blocks feature plugin requires a more recent version of WordPress and has been paused. Please update WordPress to continue enjoying WooCommerce Blocks."
+msgstr "Плагин WooCommerce Blocks требует более новой версии WordPress, поэтому его работа была приостановлена. Чтобы продолжить использовать WooCommerce Blocks, обновите WordPress."
+
+#: src/StoreApi/Routes/V1/CartAddItem.php:65
+#: src/StoreApi/Schemas/V1/ItemSchema.php:148
+msgid "Variation attribute value."
+msgstr "Значение атрибута вариации."
+
+#: src/StoreApi/Routes/V1/CartAddItem.php:60
+#: src/StoreApi/Schemas/V1/ItemSchema.php:142
+msgid "Variation attribute name."
+msgstr "Название атрибута вариации."
+
+#: src/StoreApi/Routes/V1/CartAddItem.php:53
+#: src/StoreApi/Schemas/V1/ItemSchema.php:134
+msgid "Chosen attributes (for variations)."
+msgstr "Выбранные атрибуты (для вариации)."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:87
+msgid "Stock keeping unit, if applicable."
+msgstr "Артикул (SKU), если применимо."
+
+#: src/StoreApi/Routes/V1/CartAddItem.php:39
+msgid "The cart item product or variation ID."
+msgstr "ID товара или вариации в корзине."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:159
+msgid "Total weight (in grams) of all products in the cart."
+msgstr "Общий вес всех товаров в корзине в граммах."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:181
+#: src/StoreApi/Schemas/V1/OrderSchema.php:272
+msgid "True if the cart needs shipping. False for carts with only digital goods or stores with no shipping methods set-up."
+msgstr "Значение ИСТИНА, если требуется доставка товаров. Значение ЛОЖЬ для корзин с товарами, не требующих доставки, или для магазинов, для которых не указаны способы доставки."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:143
+msgid "List of cart items."
+msgstr "Список позиций в корзине."
+
+#: src/StoreApi/Schemas/V1/CartSchema.php:153
+msgid "Number of items in the cart."
+msgstr "Количество позиций в корзине."
+
+#: src/StoreApi/Schemas/V1/ProductAttributeSchema.php:60
+msgid "If this attribute has term archive pages."
+msgstr "Если у этого атрибута есть архивные страницы значений."
+
+#: src/StoreApi/Schemas/V1/ProductAttributeSchema.php:54
+msgid "How terms in this attribute are sorted by default."
+msgstr "Как элементы этого атрибута сортируются по умолчанию."
+
+#: src/StoreApi/Schemas/V1/ProductAttributeSchema.php:48
+msgid "Attribute type."
+msgstr "Тип атрибута."
+
+#: src/StoreApi/Schemas/V1/TermSchema.php:60
+msgid "Number of objects (posts of any type) assigned to the term."
+msgstr "Число объектов (записей любого типа) назначенных на элемент."
+
+#: src/StoreApi/Schemas/V1/TermSchema.php:48
+msgid "Term description."
+msgstr "Описание элемента."
+
+#: src/StoreApi/Schemas/V1/TermSchema.php:42
+msgid "String based identifier for the term."
+msgstr "Строковый идентификатор элемента."
+
+#: src/StoreApi/Schemas/V1/TermSchema.php:36
+msgid "Term name."
+msgstr "Название значения."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:218
+#: src/StoreApi/Schemas/V1/ItemSchema.php:224
+#: src/StoreApi/Schemas/V1/ProductSchema.php:145
+#: src/StoreApi/Schemas/V1/ProductSchema.php:151
+msgid "Price amount."
+msgstr "Цена."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:212
+#: src/StoreApi/Schemas/V1/ProductSchema.php:139
+msgid "Price range, if applicable."
+msgstr "Диапазон цен (если применимо)."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:206
+#: src/StoreApi/Schemas/V1/ItemSchema.php:256
+#: src/StoreApi/Schemas/V1/ProductSchema.php:133
+msgid "Sale product price, if applicable."
+msgstr "Цена товара со скидкой (если применимо)."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:200
+#: src/StoreApi/Schemas/V1/ItemSchema.php:250
+#: src/StoreApi/Schemas/V1/ProductSchema.php:127
+msgid "Regular product price."
+msgstr "Обычная цена товара."
+
+#: src/StoreApi/Utilities/CartController.php:1281
+msgid "No matching variation found."
+msgstr "Подходящих вариаций не найдено."
+
+#. translators: %s: Attribute name.
+#: src/StoreApi/Utilities/CartController.php:1254
+msgid "%s is a required field"
+msgid_plural "%s are required fields"
+msgstr[0] "%s заполнять обязательно"
+msgstr[1] "%s заполнять обязательно"
+msgstr[2] "%s заполнять обязательно"
+
+#. translators: %s: Attribute name.
+#: src/StoreApi/Utilities/CartController.php:1254
+msgid "Missing variation data for variable product."
+msgstr "Отсутствуют данные вариации вариативного товара."
+
+#. translators: %1$s: Attribute name, %2$s: Allowed values.
+#: src/StoreApi/Utilities/CartController.php:1234
+msgid "Invalid value posted for %1$s. Allowed values: %2$s"
+msgstr "Установлено неверное значение для %1$s. Допустимые значения: %2$s"
+
+#: src/StoreApi/Routes/V1/ProductAttributesById.php:73
+msgid "Invalid attribute ID."
+msgstr "Неверный ID атрибута."
+
+#: src/StoreApi/Routes/V1/CartAddItem.php:89
+#: src/StoreApi/Routes/V1/CartItems.php:95
+msgid "Cannot create an existing cart item."
+msgstr "Нельзя создать позицию, которая уже в корзине."
+
+#: src/StoreApi/Routes/V1/CartItemsByKey.php:81
+#: src/StoreApi/Routes/V1/CartItemsByKey.php:119
+#: src/StoreApi/Utilities/CartController.php:191
+msgid "Cart item does not exist."
+msgstr "Такой позиции не существует."
+
+#: src/StoreApi/Routes/V1/CartItemsByKey.php:42
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:96
+msgid "Unique identifier for the item within the cart."
+msgstr "Уникальный идентификатор позиции в корзине."
+
+#: src/StoreApi/Routes/V1/ProductAttributeTerms.php:60
+msgid "Attribute does not exist."
+msgstr "Такого атрибута не существует."
+
+#: src/StoreApi/Routes/V1/ProductAttributeTerms.php:35
+msgid "Unique identifier for the attribute."
+msgstr "Уникальный идентификатор атрибута."
+
+#: src/StoreApi/Routes/V1/Products.php:417
+msgid "Limit result set to products with a certain average rating."
+msgstr "Показать в результатах поиска товары с определенным средним рейтингом."
+
+#: src/StoreApi/Routes/V1/Products.php:400
+msgid "The logical relationship between attributes when filtering across multiple at once."
+msgstr "Логическая связь между атрибутами при одновременной фильтрации по нескольким."
+
+#: src/StoreApi/Routes/V1/Products.php:382
+msgid "List of attribute slug(s). If a term ID is provided, this will be ignored."
+msgstr "Список ярлыков атрибутов. Если указан ID значения, данная опция будет проигнорирована."
+
+#: src/StoreApi/Routes/V1/Products.php:374
+msgid "List of attribute term IDs."
+msgstr "Список ID значений атрибутов."
+
+#: src/StoreApi/Routes/V1/Products.php:369
+msgid "Attribute taxonomy name."
+msgstr "Название таксономии атрибута."
+
+#: src/StoreApi/Routes/V1/Products.php:363
+msgid "Limit result set to products with selected global attributes."
+msgstr "Ограничить список товарами с выбранными глобальными атрибутами."
+
+#: src/StoreApi/Routes/V1/Products.php:351
+msgid "Limit result set to products with specified stock status."
+msgstr "Фильтрация товаров, имеющих определённый статус на складе."
+
+#: src/StoreApi/Routes/V1/Products.php:330
+msgid "Limit result set to products on sale."
+msgstr "Показать только товары на распродаже."
+
+#: src/StoreApi/Routes/V1/Products.php:314
+msgid "Limit result set to products assigned a specific tag ID."
+msgstr "Фильтрация товаров, относящихся к определённой метке."
+
+#: src/StoreApi/Routes/V1/Products.php:276
+#: src/StoreApi/Routes/V1/Products.php:295
+msgid "Limit result set to products assigned a specific category ID."
+msgstr "Фильтрация товаров, относящихся к определённой категории."
+
+#: src/StoreApi/Routes/V1/Products.php:269
+msgid "Limit result set to featured products."
+msgstr "Показать только рекомендуемые товары."
+
+#: src/StoreApi/Routes/V1/Products.php:262
+msgid "Limit result set to products with specific SKU(s). Use commas to separate."
+msgstr "Фильтрация товаров по артикулу. Используйте запятые в качестве разделителя."
+
+#: src/StoreApi/Routes/V1/Products.php:254
+msgid "Limit result set to products assigned a specific type."
+msgstr "Фильтрация товаров, относящихся к определённому типу."
+
+#: src/StoreApi/Routes/V1/Products.php:244
+msgid "Limit result set to all items except those of a particular parent ID."
+msgstr "Фильтрация объектов, исключающая назначенные определённым родительским ID."
+
+#: src/StoreApi/Routes/V1/Products.php:234
+msgid "Limit result set to those of particular parent IDs."
+msgstr "Фильтрация ресурсов, назначенных определённым родительским ID."
+
+#: src/StoreApi/Routes/V1/AbstractTermsRoute.php:64
+#: src/StoreApi/Routes/V1/Products.php:189
+msgid "Limit result set to specific ids."
+msgstr "Фильтрация ресурсов по определённым ID."
+
+#: src/StoreApi/Routes/V1/AbstractTermsRoute.php:54
+#: src/StoreApi/Routes/V1/Products.php:179
+msgid "Ensure result set excludes specific IDs."
+msgstr "Убедитесь, что результирующий набор исключает конкретные идентификаторы."
+
+#: src/StoreApi/Routes/V1/Products.php:166
+msgid "When limiting response using after/before, which date column to compare against."
+msgstr "Если при ограничении ответа вы указываете значения «до» и «после», укажите колонку дат и с чем ее сравнивать."
+
+#: src/StoreApi/Routes/V1/Products.php:159
+msgid "Limit response to resources created before a given ISO8601 compliant date."
+msgstr "Ограничить ответ для ресурсов, опубликованных до указанной даты в совместимом с ISO 8601 формате."
+
+#: src/StoreApi/Routes/V1/Products.php:152
+msgid "Limit response to resources created after a given ISO8601 compliant date."
+msgstr "Ограничить ответ отзывами, опубликованными после заданной ISO8601 совместимой даты."
+
+#: src/StoreApi/Routes/V1/AbstractTermsRoute.php:47
+#: src/StoreApi/Routes/V1/Products.php:138
+msgid "Limit results to those matching a string."
+msgstr "Лимитировать результаты, которые совпадают со строкой."
+
+#: src/StoreApi/Routes/V1/AbstractTermsRoute.php:29
+#: src/StoreApi/Routes/V1/ProductReviews.php:168
+#: src/StoreApi/Routes/V1/Products.php:119
+msgid "Current page of the collection."
+msgstr "Текущая страница коллекции."
+
+#: src/StoreApi/Routes/V1/ProductsById.php:73
+msgid "Invalid product ID."
+msgstr "Неверный идентификатор товара."
+
+#: src/StoreApi/Utilities/CartController.php:728
+msgid "Unable to retrieve cart."
+msgstr "Не удалось загрузить данные о корзине."
+
+#: src/StoreApi/Routes/V1/ProductCollectionData.php:171
+msgid "If true, calculates rating counts for products in the collection."
+msgstr "Подсчитывает оценки товаров в коллекции."
+
+#: src/StoreApi/Routes/V1/ProductCollectionData.php:147
+msgid "If requested, calculates attribute term counts for products in the collection."
+msgstr "По запросу вычисляет количество значений атрибутов товаров в коллекции."
+
+#: src/StoreApi/Routes/V1/ProductCollectionData.php:135
+msgid "If true, calculates the minimum and maximum product prices for the collection."
+msgstr "Если установлено значение ИСТИНА, возвращает минимальные и максимальные цены товаров в коллекции."
+
+#: src/StoreApi/Schemas/V1/ProductCollectionDataSchema.php:84
+#: assets/js/blocks/products/edit.js:46 build/all-products-frontend.js:4
+#: build/all-products.js:24 build/all-products.js:25
+msgid "Average rating"
+msgstr "Средний рейтинг"
+
+#: src/StoreApi/Schemas/V1/ProductCollectionDataSchema.php:76
+msgid "Returns number of products with each average rating."
+msgstr "Выдаёт товары со средним рейтингом каждого."
+
+#: src/StoreApi/Schemas/V1/ProductCollectionDataSchema.php:67
+#: src/StoreApi/Schemas/V1/ProductCollectionDataSchema.php:90
+#: src/StoreApi/Schemas/V1/ProductCollectionDataSchema.php:113
+msgid "Number of products."
+msgstr "Число товаров."
+
+#: src/StoreApi/Schemas/V1/ProductCollectionDataSchema.php:61
+msgid "Term ID"
+msgstr "ID значения"
+
+#: src/StoreApi/Schemas/V1/ProductCollectionDataSchema.php:44
+msgid "Max price found in collection of products."
+msgstr "Максимальная цена, найденная в коллекции товаров."
+
+#: src/StoreApi/Schemas/V1/ProductCollectionDataSchema.php:38
+msgid "Min price found in collection of products."
+msgstr "Минимальная цена, найденная в коллекции товаров."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:411
+msgid "Button description."
+msgstr "Описание кнопки."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:405
+msgid "Button text."
+msgstr "Текст кнопки."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:399
+msgid "Add to cart button parameters."
+msgstr "Параметры кнопки добавления в корзину."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:375
+msgid "Is the product in stock?"
+msgstr "Есть ли товар в наличии?"
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:369
+msgid "Is the product purchasable?"
+msgstr "Есть ли возможность приобрести этот товар?"
+
+#: src/StoreApi/Schemas/V1/ImageAttachmentSchema.php:52
+msgid "Thumbnail sizes for responsive images."
+msgstr "Миниатюры адаптивных изображений."
+
+#: src/StoreApi/Schemas/V1/ImageAttachmentSchema.php:47
+msgid "Thumbnail srcset for responsive images."
+msgstr "Атрибут srcset миниатюр адаптивных изображений."
+
+#: src/StoreApi/Schemas/V1/ImageAttachmentSchema.php:41
+msgid "Thumbnail URL."
+msgstr "URL-адрес миниатюры."
+
+#: src/StoreApi/Schemas/V1/ImageAttachmentSchema.php:35
+msgid "Full size image URL."
+msgstr "URL-адрес полноразмерного изображения."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:102
+msgid "Is the product on sale?"
+msgstr "Действует ли на товар скидка?"
+
+#. translators: 1: product name 2: quantity in stock
+#: src/StoreApi/Utilities/CartController.php:244
+msgid "You cannot add that amount of &quot;%1$s&quot; to the cart because there is not enough stock (%2$s remaining)."
+msgstr "Невозможно приобрести &quot;%1$s&quot; в таком количестве, так как запасы данного товара ограничены (осталось %2$s)."
+
+#. translators: %s: product name
+#: src/StoreApi/Utilities/CartController.php:228
+msgid "You cannot add &quot;%s&quot; to the cart because the product is out of stock."
+msgstr "&quot;%s&quot; не помещается в корзину, так как этого товара нет в наличии."
+
+#: src/StoreApi/Utilities/CartController.php:1075
+#: src/StoreApi/Utilities/CartController.php:1358
+msgid "This product cannot be added to the cart."
+msgstr "Этот товар нельзя добавить в корзину."
+
+#: src/StoreApi/Schemas/V1/CartFeeSchema.php:30
+msgid "Unique identifier for the fee within the cart."
+msgstr "Уникальный идентификатор комиссии в корзине."
+
+#: src/BlockTypes/ProductSearch.php:44 build/legacy-template.js:5
+#: build/product-search.js:1
+msgid "Search products…"
+msgstr "Искать товары…"
+
+#: patterns/footer-simple-menu-and-cart.php:18
+#: patterns/footer-with-3-menus.php:50 src/BlockTypes/ProductSearch.php:43
+#: src/BlockTypes/ProductSearch.php:111 build/legacy-template.js:5
+#: build/product-search.js:1
+msgid "Search"
+msgstr "Поиск"
+
+#: src/StoreApi/Routes/V1/ProductReviews.php:223
+msgid "Limit result set to reviews from specific product IDs."
+msgstr "Ограничение результатов отзывами о товарах с конкретными ID."
+
+#: src/StoreApi/Routes/V1/ProductReviews.php:202
+#: src/StoreApi/Routes/V1/Products.php:214
+msgid "Sort collection by object attribute."
+msgstr "Сортировка коллекции по атрибутам объекта."
+
+#: src/StoreApi/Routes/V1/ProductReviews.php:194
+#: src/StoreApi/Routes/V1/Products.php:206
+msgid "Order sort attribute ascending or descending."
+msgstr "Порядок сортировки атрибутов по возрастанию или по убыванию."
+
+#: src/StoreApi/Routes/V1/ProductReviews.php:187
+#: src/StoreApi/Routes/V1/Products.php:199
+msgid "Offset the result set by a specific number of items."
+msgstr "Смещение итогового набора на определённое количество позиций."
+
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:144
+msgid "Avatar URLs for the object reviewer."
+msgstr "URL-адреса аватара для автора отзыва об объекте."
+
+#. translators: %d: avatar image size in pixels
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:137
+msgid "Avatar URL with image size of %d pixels."
+msgstr "URL-адрес аватара с размером изображения в %d пикселей."
+
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:123
+msgid "Shows if the reviewer bought the product or not."
+msgstr "Отображает является автор отзыва покупателем товара или нет."
+
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:117
+msgid "Review rating (0 to 5)."
+msgstr "Оценка отзыва (0 - 5)"
+
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:108
+msgid "The content of the review."
+msgstr "Содержание отзыва."
+
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:102
+msgid "Reviewer name."
+msgstr "Имя автора отзыва."
+
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:95
+msgid "Image of the product that the review belongs to."
+msgstr "Изображение товара, к которому относится отзыв."
+
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:89
+msgid "Permalink of the product that the review belongs to."
+msgstr "Постоянная ссылка на товар, к которому относится отзыв."
+
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:83
+msgid "Name of the product that the review belongs to."
+msgstr "Название товара, к которому относится отзыв."
+
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:77
+msgid "Unique identifier for the product that the review belongs to."
+msgstr "Уникальный идентификатор для товара, к которому относится отзыв."
+
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:64
+msgid "The date the review was created, in the site's timezone in human-readable format."
+msgstr "Дата создания отзыва в часовом поясе сайта и в удобочитаемом формате."
+
+#: src/StoreApi/Schemas/V1/ProductCategorySchema.php:65
+msgid "Category URL."
+msgstr "URL категории."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:80
+msgid "Product variation attributes, if applicable."
+msgstr "Атрибуты вариации товара, если применимо."
+
+#: src/StoreApi/Routes/V1/Products.php:409
+msgid "Determines if hidden or visible catalog products are shown."
+msgstr "Определяет отображение скрытых и видимых товаров каталога."
+
+#: src/StoreApi/Routes/V1/Products.php:321
+msgid "Operator to compare product tags."
+msgstr "Оператор для сравнения меток товаров."
+
+#. translators: 1: composer command. 2: plugin directory
+#: woocommerce-gutenberg-products-block.php:132
+#: woocommerce-gutenberg-products-block.php:150
+msgid "Your installation of the WooCommerce Blocks feature plugin is incomplete. Please run %1$s within the %2$s directory."
+msgstr "Ваша установка функционала WooCommerce Blocks не завершена. Пожалуйста, запустите %1$s в директории %2$s."
+
+#: src/BlockTypes/ProductCategories.php:257
+msgid "Go to category"
+msgstr "Перейти к категории"
+
+#: src/BlockTypes/ProductCategories.php:245
+#: src/BlockTypes/ProductCategories.php:249 build/featured-category.js:14
+msgid "Select a category"
+msgstr "Выберите категорию"
+
+#: src/StoreApi/Schemas/V1/ProductAttributeSchema.php:66
+msgid "Number of terms in the attribute taxonomy."
+msgstr "Количество позиций в классификации атрибутов."
+
+#: src/BlockTypes/OrderConfirmation/Totals.php:38
+#: assets/js/blocks/reviews/edit-utils.js:131 build/all-reviews.js:3
+#: build/cart-blocks/cart-line-items-frontend.js:11 build/cart.js:12
+#: build/legacy-template.js:7
+#: build/mini-cart-contents-block/products-table-frontend.js:11
+#: build/mini-cart-contents.js:13 build/order-confirmation-downloads.js:1
+#: build/order-confirmation-totals.js:1 build/reviews-by-category.js:13
+#: build/reviews-by-product.js:13 build/single-product.js:8
+msgid "Product"
+msgstr "Товар"
+
+#. translators: %1$s is the install command, %2$s is the build command, %3$s is
+#. the watch command.
+#: src/Domain/Bootstrap.php:219
+msgid "WooCommerce Blocks development mode requires files to be built. From the plugin directory, run %1$s to install dependencies, %2$s to build the files or %3$s to build the files and watch for changes."
+msgstr "Режим разработки WooCommerce Blocks нуждается в возможности создания файлов. В директории плагина, запустите %1$s для установки зависимостей, %2$s для создания файлов, или %3$s для создания файлов и отслеживания изменений."
+
+#: patterns/hero-product-3-split.php:34 patterns/hero-product-split.php:24
+#: build/featured-category.js:14 build/featured-product.js:14
+msgid "Shop now"
+msgstr "Приступить к покупкам"
+
+#: src/StoreApi/Routes/V1/Products.php:390
+msgid "Operator to compare product attribute terms."
+msgstr "Оператор для сравнения атрибутов товаров."
+
+#: src/StoreApi/Routes/V1/Products.php:283
+#: src/StoreApi/Routes/V1/Products.php:303
+msgid "Operator to compare product category terms."
+msgstr "Оператор для сравнения категорий товаров."
+
+#: src/BlockTypes/ProductButton.php:138 assets/js/previews/products.js:59
+#: assets/js/previews/products.js:60 build/all-products.js:2
+#: build/all-products.js:3 build/all-products.js:21
+#: build/cart-blocks/cart-cross-sells-products-frontend.js:7 build/cart.js:17
+#: build/featured-product.js:14 build/product-add-to-cart-frontend.js:2
+#: build/product-add-to-cart.js:2 build/product-button-frontend.js:2
+#: build/product-button.js:2
+msgid "Add to cart"
+msgstr "В корзину"
+
+#. Description of the plugin
+msgid "WooCommerce blocks for the Gutenberg editor."
+msgstr "WooCommerce blocks для редактора Gutenberg."
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Blocks"
+msgstr "WooCommerce Blocks"
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:199
+msgid "Meta value."
+msgstr "Значение мета."
+
+#: src/StoreApi/Schemas/V1/CartShippingRateSchema.php:193
+msgid "Meta key."
+msgstr "Ключ мета."
+
+#: src/StoreApi/Schemas/V1/ProductAttributeSchema.php:36
+msgid "Attribute name."
+msgstr "Название атрибута."
+
+#: src/StoreApi/Schemas/V1/ImageAttachmentSchema.php:62
+msgid "Image alternative text."
+msgstr "Альтернативный текст изображения."
+
+#: src/StoreApi/Schemas/V1/ImageAttachmentSchema.php:57
+msgid "Image name."
+msgstr "Название изображения."
+
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:70
+msgid "The date the review was created, as GMT."
+msgstr "Дата создания рецензии (в формате GMT)."
+
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:57
+msgid "The date the review was created, in the site's timezone."
+msgstr "Дата создания отзыва в часовом поясе сайта."
+
+#: src/StoreApi/Schemas/V1/ImageAttachmentSchema.php:30
+msgid "Image ID."
+msgstr "ID изображения."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:124
+#: src/StoreApi/Schemas/V1/ProductSchema.php:180
+msgid "List of images."
+msgstr "Список изображений."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:242
+msgid "Tag slug"
+msgstr "Ярлык метки"
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:236
+msgid "Tag name"
+msgstr "Название метки"
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:230
+msgid "Tag ID"
+msgstr "ID метки"
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:208
+msgid "Category slug"
+msgstr "Ярлык категории"
+
+#: src/StoreApi/Schemas/V1/ProductCategorySchema.php:52
+msgid "Category image."
+msgstr "Изображение категории."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:196
+msgid "Category ID"
+msgstr "ID категории"
+
+#: src/BlockTypes/ProductCategories.php:236
+msgid "List of categories"
+msgstr "Список категорий"
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:174
+msgid "Amount of reviews that the product has."
+msgstr "Количество отзывов, оставленных на товар."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:168
+msgid "Reviews average rating."
+msgstr "Средняя оценка отзывов."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:105
+msgid "True if the product is on backorder."
+msgstr "Верно, если товар значится в невыполненном заказе."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:194
+#: src/StoreApi/Schemas/V1/ItemSchema.php:244
+#: src/StoreApi/Schemas/V1/ProductSchema.php:121
+msgid "Current product price."
+msgstr "Текущая цена товара."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:108
+msgid "Unique identifier."
+msgstr "Уникальный идентификатор."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:74
+msgid "Product type."
+msgstr "Тип товара."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:117
+#: src/StoreApi/Schemas/V1/ProductSchema.php:85
+msgid "Product URL."
+msgstr "URL товара."
+
+#: src/StoreApi/Schemas/V1/ProductSchema.php:63
+msgid "Product slug."
+msgstr "Ярлык товара."
+
+#: src/StoreApi/Schemas/V1/ItemSchema.php:69
+#: src/StoreApi/Schemas/V1/ProductSchema.php:58
+msgid "Product name."
+msgstr "Название товара."
+
+#: src/StoreApi/Routes/V1/ProductAttributesById.php:42
+#: src/StoreApi/Routes/V1/ProductCategoriesById.php:42
+#: src/StoreApi/Routes/V1/ProductsById.php:42
+#: src/StoreApi/Schemas/V1/ProductAttributeSchema.php:30
+#: src/StoreApi/Schemas/V1/ProductReviewSchema.php:51
+#: src/StoreApi/Schemas/V1/ProductSchema.php:52
+#: src/StoreApi/Schemas/V1/TermSchema.php:30
+msgid "Unique identifier for the resource."
+msgstr "Уникальный идентификатор для ресурса."
+
+#. Author URI of the plugin
+msgid "https://woocommerce.com"
+msgstr "https://woocommerce.com"
+
+#. Author of the plugin
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/woocommerce/woocommerce-gutenberg-products-block"
+msgstr "https://github.com/woocommerce/woocommerce-gutenberg-products-block"
